@@ -37,12 +37,19 @@ plot(x,y,'r^');
 
 ## Pictures
 
-To add pictures, first, make sure that they are downloaded by right clicking on the image and saving. Save it to the "media" folder associated with the chapter you are working on. Then to link a picture in markdown, do it like this:
+To add pictures, first, make sure that they are downloaded by right clicking on the image and saving. Save it to the "media" folder associated with the chapter you are working on. The most basic form of a picture in markdown looks like this:
 
 ![alt text](image.jpg)
 
-Where the alt text is just the caption for the picture. Here is an example with an actual picture.
+But, we need a way to display a figure caption. The little hack I came up with is putting both the figure, and the caption, in a table. Here is an example of how you should format an actual picture.
 
-![Figure 1.1: You are all my knights in shining armor!](media/knight.jpg)
+|![fig1.1](media/knight.jpg)|
+|:---:|
+|*Figure 1.1: You are all my knights in shining armor!*|
 
-Please note that there have been reports of some mistkaes on the figures in the book. Please update them to make them correct. E.G. if it says Figure X, change it to Figure 12.5 or whatever it should be.
+
+
+There are a few important notes about pictures...
+
+1. Please note that there have been reports of some mistakes on the figures in the book. Please update them to make them correct. E.G. if it says Figure X, change it to Figure 12.5 or whatever it should be.
+2. Note that the figure is just a table. Make sure to put *emphasis* or stars around the caption to make it italics.
