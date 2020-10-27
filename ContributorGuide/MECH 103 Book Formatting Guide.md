@@ -68,3 +68,27 @@ This is how you create bulleted lists.
 - You can just use this notation.
 - For bulleted lists.
 - Easy right?
+
+## Equations
+
+For equations, you are going to have to use a little bit of latex formatting which might take a little practice. There are two types of latex equations. Either they are in-line like this: \\( {velocity} = {{dx}\over{dt}} \\)
+
+Or they are on their own line like this:
+
+\\[ a^2 = b^2 + c^2 \\]
+
+Notice that you use the double backslash notation to start each one. They only difference is you use double-back-slash+paranthesis for one and double-back-slash+bracket for the other.
+
+The only little trick with equations is figuring out latex formatting. The curly brackets you can think of as how to isolate little bits of math. So if you look at the velocity example above, notice, how I used curly brackets to make sure that the "over" function worked correctly.
+
+[Here is a link to an online latex editor](https://latexeditor.lagrida.com/)
+
+Now open up that link and try the following three lines in the latex editor to see what I am talking about. *Note: if I wanted to format these for the book I would have had to include the double-back-slash+paranthesis in front and after the equations.*
+
+- velocity = distance \over time
+- {velocity} = {distance \over time}
+- {velocity} = \frac{distance}{time}
+
+Notice that the first one doesn't work the way we wanted it to but the second two BOTH work. If you are not confident in your latex equation skills you can always access that online latex editor to see what your latex equations will look like before you put them in the book.
+
+[Finally, here is a latex math cheat sheet you can reference](http://joshua.smcvt.edu/undergradmath/undergradmath.pdf)
