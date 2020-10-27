@@ -10,7 +10,7 @@ Use heading level one for chapter titles as above. Use level two and level three
 
 ## Level two heading
 
-Words words words.
+Here is a link to a markdown cheat sheet. It also shows you how to create links in markdown. [This is the link text in square brackets](https://www.markdownguide.org/cheat-sheet)
 
 ### Level three heading
 
@@ -35,6 +35,8 @@ y = x.^2;
 plot(x,y,'r^');
 ```
 
+I think almost all the code examples are on their own lines (three apostrophes). However, if you run accross an in-line code example you can do it like this `test=20;`.
+
 ## Pictures
 
 To add pictures, first, make sure that they are downloaded by right clicking on the image and saving. Save it to the "media" folder associated with the chapter you are working on. The most basic form of a picture in markdown looks like this:
@@ -48,8 +50,21 @@ But, we need a way to display a figure caption. The little hack I came up with i
 |*Figure 1.1: You are all my knights in shining armor!*|
 
 
-
 There are a few important notes about pictures...
 
 1. Please note that there have been reports of some mistakes on the figures in the book. Please update them to make them correct. E.G. if it says Figure X, change it to Figure 12.5 or whatever it should be.
 2. Note that the figure is just a table. Make sure to put *emphasis* or stars around the caption to make it italics.
+
+## Videos
+
+For embedded videos, just include the youtube links. Example:
+
+[Video 2.1: TJ Duane, It's Who you Know](https://www.youtube.com/watch?v=NzpYBTeZdWw&feature=emb_title&ab_channel=StanfordGraduateSchoolofBusiness)
+
+## Bulleted Lists
+
+This is how you create bulleted lists.
+
+- You can just use this notation.
+- For bulleted lists.
+- Easy right?
