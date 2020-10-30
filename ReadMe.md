@@ -9,4 +9,7 @@ This is the repository that will store all of the chapters to the Introduction t
 * Media - All of the pictures and downloadable files from the chapters.
 * Homework - All of the word documents containing the homework files. Solutions are available to instructors by emailing samuel.bechara@colostate.edu and proving you are a professor.
 
+## License
+Introduction to Engineering by Samuel Bechara is licensed under CC BY-NC 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc/4.0
+
 
