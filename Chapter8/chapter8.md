@@ -1,4 +1,4 @@
-#Chapter 8: MATLAB Scripting and Arrays
+# Chapter 8: MATLAB Scripting and Arrays
 |![fig1.1](media/figure8.1.jpg)|
 |:---:|
 |*Figure 8.1: Type, type, type.*|
@@ -7,7 +7,7 @@
 
 To start this chapter I would like you to consider a situation where you need to perform the same *calculation* with *different numbers* multiple times. For example, lets pretend that you are preparing for a final exam, and you would like to know how different final exam grades will impact your overall average. You have already taken midterm 1, midterm 2, and midterm 3 so those grades are locked. You recall that to calculate average all you have to do is sum your values and divide the sum by the number of entries. For you math folks, the formula is:
 
-\\[ average=\frac1n\sum_{i=1}^na_i\\]
+\\[ average=\frac1n\sum_{i=1}^na_i \\]
 ​	
   
 
