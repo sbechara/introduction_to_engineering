@@ -1,6 +1,6 @@
 # Chapter 16: Technical Presentations
 
-|![Fig16.1](media/People.jpg)|
+|![Fig16.1](Media/People.jpg)|
 |:----:|
 :Figure 16.1: It can be scary looking at a large audience, even for us who do it a lot.|
 
@@ -31,7 +31,7 @@ Finally, it should be noted, that engineers have to present *a lot*. In fact, en
 
 Before we jump into some examples and tips, I wanted to take a quick note on presentation anxiety. As I mentioned before, there is no getting around it, you will probably be a little nervous when you present. That is ok! Almost everyone feels a little nervous. However, there are tactics that you can use to reduce your anxiety when stepping up in front of an audience.
 
-|![Fig16.2](media/Panic.jpg)|
+|![Fig16.2](Media/Panic.jpg)|
 |:----:|
 |Figure 16.2: The Key is to Not Panic! (https://pixabay.com/illustrations/keyboard-button-panic-fear-anxiety-114439/)|
 
@@ -91,7 +91,7 @@ The title slide is just a place to include the names of all the people that work
 
 - Keep it simple.
 
-|![Fig16.3](media/Title_Ex.png)|
+|![Fig16.3](Media/Title_Ex.png)|
 |:----:|
 |Figure 16.3: A Title Slide. This specific presentation talked about how forcing students to read via textbooks like this one where there are homework points associated with reading, actually improves educational outcomes.|
 
@@ -103,7 +103,7 @@ The purpose of the introduction slide it to outline your current understanding o
 - Justify the merit of your project by presenting significant information.
 - End with a specific, clear, and explicit purpose for the project. Some of the projects that you complete during your undergraduate career will be chosen for you. It does not mean that the purpose of the project is "because the professor told me to do it". Spend some time thinking about the project and what learning outcomes your are expected to gain from it.
 
-|![Fig16.4](media/Intro_Ex.png)|
+|![Fig16.4](Media/Intro_Ex.png)|
 |:----:|
 |Figure 16.4: An example introduction slide. In this slide I talked about the motivation for the project. Specifically, why don't students just read the textbook?|
 
@@ -115,7 +115,7 @@ The purpose of the materials and methods slide is to list the necessary steps fo
 - It should be clear how the materials and methods relate to the purpose of the project.
 - The audience should feel that presenters fully understand the scope and details of the work (especially if it is a proposal).
 
-|![Fig16.5](media/MM_Ex.png)|
+|![Fig16.5](Media/MM_Ex.png)|
 |:----:|
 |Figure 16.5: An example materials and methods slide. In this slide I talked about how I setup the research project in specific details.|
 
@@ -127,7 +127,7 @@ The results slide is the place where you describe what you found from your proje
 - Do not interpret your results yet! Just show what you gathered.
 - Visual descriptions of your data are important. Be sure to include figures and tables as appropriate.
 
-|![Fig16.6](media/Results_Ex.png)|
+|![Fig16.6](Media/Results_Ex.png)|
 |:----:|
 |FIgure 16.6: An example results slide. This particular slide shows that students that read more (the "HTC" group) scored statistically significantly higher overall in the course than the students that didn't read as much (the "LTC" group)|
 
@@ -141,7 +141,7 @@ Although it might seem like your results are the most important slide, I would a
 - List any limitations of the project.
 - Discuss future work.
 
-|![Fig16.7](media/Discussion_Ex.png)|
+|![Fig16.7](Media/Discussion_Ex.png)|
 |:----:|
 |Figure 16.7: An example discussion slide. In this particular slide, I talked about the results and tried to frame them in terms of what I considered to be the limitations of my presentation.|
 
@@ -153,7 +153,7 @@ Finally, we get to the conclusion slide. This is another very important slide as
 - Summarize the major points from your presentation. Be sure to provide your audience with a take home message.
 - Summarize the weaknesses of the project. It shows that you can critically think about your own work and makes your audience more sympathetic with your position. Admitting what you would change actually strengthens your position.
 
-|![Fig16.8](media/Conclusion_Ex.png)|
+|![Fig16.8](Media/Conclusion_Ex.png)|
 |:----:|
 |Figure 16.8: An example conclusion slide.|
 
