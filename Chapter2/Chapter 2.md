@@ -105,7 +105,7 @@ Some of you are extroverted and find building a network of people easy and fun. 
 
 |<video src="https://www.youtube.com/embed/NzpYBTeZdWw" /> |
 | :----: |
-| Video 2.1: TJ Duane explores the power of a personal network and offers strategies for leveraging those key relationships. |
+| Video 2.1: [TJ Duane explores the power of a personal network and offers strategies for leveraging those key relationships](https://www.youtube.com/watch?v=NzpYBTeZdWw&feature=emb_logo). |
 
 
 > Question 2.1: Networking "Lifelines" and "Landmines"
