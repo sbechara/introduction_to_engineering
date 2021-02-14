@@ -1,5 +1,5 @@
 # Chapter 6: Mathematical Models
-|![fig6.1](media/Math_Board.jpg)|
+|![fig6.1](Media/Math_Board.jpg)|
 |:----:|
 |Figure 6.1: Mathematical models are just math ways of talking about natural phenomena.|
 
@@ -17,7 +17,7 @@ The emphasis of this chapter will be in thinking. You need to think before you c
 
 There is an old-saying in carpentry that you should measure twice and cut once. The idea is that you can't un-cut a piece of wood so you better be sure you are cutting it correctly. While this analogy doesn't perfectly translate to mathematical modeling (you could technically re-run the model), the reality is that once you choose your model and think it is good enough, it is unlikely you will re-scrutinize it.
 
-|![fig6.2](media/Crosscut_Saw.jpg)|
+|![fig6.2](Media/Crosscut_Saw.jpg)|
 |:----:|
 |Figure 6.2: Think twice, model once!|
 
@@ -42,7 +42,7 @@ Linear models are straight lines and take on the form of the equation:
 
  {y}={m}{x}+{b}
 
-|![fig6.3](media/Linear_Example.png)|
+|![fig6.3](Media/Linear_Example.png)|
 |:----:|
 |Figure 6.3: An example of what linear models look like when plotted|
 
@@ -61,7 +61,7 @@ Remember from our units chapter that we can use dimensional analysis to determin
 
 Hopefully you actually tried this on your own and found that the SI units for {k} are {N}/{m}. If you google search "buying springs" you can see that this specification is always listed for springs that are for sale. It may be in US units ({lbs}/{in}...gross) but you get the idea.
 
-|![Fig6.4](media/Spring_Data_1.png)|
+|![Fig6.4](Media/Spring_Data_1.png)|
 |:----:|
 |Figure 6.4: Load up the Excel file you saved with this chart.|
 
@@ -78,7 +78,7 @@ also very similar to adding a legend or other chart element so this should be ea
 
 **Step 1)** Click on one of the data points for the spring 1 dataset. You can click on any of them within the graph and you should notice that they are all selected. You can tell they are selected because Excel will put little circles around all the data points in the series (figure 6.5)
 
-|![fig6.5](media/Spring_Data_2.png)|
+|![fig6.5](Media/Spring_Data_2.png)|
 |:----:|
 |Figure 6.5: Example of Spring 1 data series being selected.|
 
@@ -86,7 +86,7 @@ also very similar to adding a legend or other chart element so this should be ea
 
 **Step 3)** In the sub-menu that presents itself, you can choose the type of trendline you want, in this case it is the "Linear" type. Select the "Linear" option and the trendline should automatically be added to the plot!
 
-|![fig6.6](media/Spring_Data_3.png)|
+|![fig6.6](Media/Spring_Data_3.png)|
 |:----:|
 |Figure 6.6: What your chart should look like after you add the linear trendline to the spring 1 dataset.|
 
@@ -94,7 +94,7 @@ also very similar to adding a legend or other chart element so this should be ea
 
 **Step 5)** THINK AGAIN. We know this mathematical model should be linear so we don't need to change that. But should we set the intercept? Does that make sense in this case? Recall: {F}={k}{x} and {y}={m}{x}+{b}.  See what I am getting at here? Notice how in Hooke's Law we are assuming that the before the spring has mass added to it, we are expecting it to stretch 0 meters. Does that sound like an intercept?
 
-|![fig6.7](media/Trendline_Format.png)|
+|![fig6.7](Media/Trendline_Format.png)|
 |:----:|
 |Figure 6.7: Format Trendline Options|
 
@@ -115,7 +115,7 @@ Power models are swoopy lines and take the form of the equation:
 
  {y}={b}{x}^{m}
 
-|![fig5.8](media/Power_Example.png)|
+|![fig5.8](Media/Power_Example.png)|
 |:----:|
 |Figure 6.8: Example of two different power models. The blue line has a positive "slope" (m value) and the orange line has a "negative" slope.|
 
@@ -139,7 +139,7 @@ If {r}={2}, {V}={4}/{3}\pi({2}^{3})={32}/{3}\pi
 ##### Fun Fact
 This is the reason why insects are small and you don't see human sized ants running around. Since insects "breathe" by diffusing oxygen through their shell they do not scale up nicely. [Technically, it is a little more complicated](https://www.nature.com/news/2003/030120/full/news030120-9.html) than just straight diffusion but the fact is, geometry limits their size. If an ant was two times bigger, it would have about 8 times more volume which is much more difficult to diffuse oxygen!
 
-|![fig6.9](media/Ant.jpg)|
+|![fig6.9](Media/Ant.jpg)|
 |:----:|
 |Figure 6.9: Don't worry about him growing to the size of a person anytime soon. Worry about him going extinct.|
 
@@ -164,13 +164,13 @@ Keep in mind that the {e} in this equation refers to [the mathematical constant,
 - When {m} is positive, the model is [asymptotic](https://www.mathsisfun.com/algebra/asymptote.html) to {0} for large negative values of {x}. This scenario is called **exponential growth**.
 - Conversely, when {m} is negative, the model is asymptotic to {0} at large positive values of {x}. This scenario is called **exponential decay**.
 
-|![fig6.10](media/Exponential_Example.png)|
+|![fig6.10](Media/Exponential_Example.png)|
 |:----:|
 |Figure 6.10: Examples of exponential models. The blue line has a positive m, the orange line has a negative m.|
 
 ##### Example of an Exponential Model - Atmospheric Pressure
 
-|![6.11](media/Mountains.jpg)|
+|![6.11](Media/Mountains.jpg)|
 |:----:|
 |Figure 6.11: It is hard to breathe up there or so I am told. [But not just because of all the poop.](https://www.cnn.com/2018/08/05/health/mount-everest-biogas-project/index.html)|
 
