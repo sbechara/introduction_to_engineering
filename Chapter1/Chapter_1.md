@@ -31,7 +31,7 @@ In this chapter we will learn about engineering in general. That includes learni
 
 Engineers build things that give people superpowers and in the process, make the world a better place. It really is that simple.
 
-|![Fig1.1](media/superhero_2.jpg)|
+|![Fig1.1](Media/superhero_2.jpg)|
 |:----:|
 |*Figure 1.1: Engineers turn ordinary people into Superheroes!*|
 
@@ -41,7 +41,7 @@ Currently, the fastest man in the world (for the 100m dash) tops out at approxim
 
 Consider, explaining to someone 100 years ago the powers that engineers have given mere mortals. Go ahead, close your eyes, and pretend that you are someone from 100 years ago. You can even come up with a old-timey name for yourself if it helps (my old-timey name is Horatio Winterberry). [Go on Wikipedia and try and see what life was like in 1918](https://en.wikipedia.org/wiki/1918). That page should allow you to see a bunch of historically important events that happened over 100 years ago. Click through the Wikipedia page, do a little more background research, and get a good feel for the type of technology they had available to them.
 
-|![Fig1.2](media/Old_Timer.jpg)|
+|![Fig1.2](Media/Old_Timer.jpg)|
 |:----:|
 |*Figure 1.2: Horatio Winterberry in his new horseless carriage... probably*|
 
@@ -92,7 +92,7 @@ Engineering is hard and there are right and wrong reasons to pursue it as a majo
 
 Steve is an 18 year old about to graduate from Generic High School. Steve is very smart and exceptionally clever. He has always been interested in electronics, computers, and baseball. He built an arduino-based biometric lock for his bedroom to keep his sister out when he was only 7 years old. However, Steve has no muscular definition or hand eye coordination to speak of. Steve was the only player to strike out in his t-ball league (a record him and his dad laugh about often). As part of his high school capstone project Steve designed an "e-bat" that was able to measure the swing velocity and force imparted onto the ball for his High School Baseball team. Even though he didn't make the team, Steve was proud to see his e-bat used to enhance the performance of the players by giving them information on their swing speed, angle, etc. Steve graduates High School with a 3.9 GPA and gets a full ride scholarship offer from Colorado State University to study engineering. Steve has always been interested in baseball and hears that MLB players make a lot of money. Steve decides to skip college and instead he begins training to become an MLB baseball player.
 
-|![Fig1.3](media/Baseball_Hit.jpg)|
+|![Fig1.3](Media/Baseball_Hit.jpg)|
 |:----:|
 |*Figure 1.3: DEFINITELY not Steve*|
 
@@ -170,7 +170,7 @@ If this student was suddenly required to repeat the homework from scratch, it is
 
 One of the dangers I would like to alert you to is that your professor has very strong mental muscles. When you go to class or ask your professor for help, they will likely be able to answer you. When you think about it the amount of knowledge your professors have is amazing huh?
 
-|![Fig1.4](media/Strong_Man.jpg)|
+|![Fig1.4](Media/Strong_Man.jpg)|
 |:----:|
 |*Figure 1.4: Your professor has huge mental muscles.*|
 
