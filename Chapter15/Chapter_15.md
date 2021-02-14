@@ -1,12 +1,12 @@
 # Chapter 15: User Defined Functions
 
-|![Fig15.1](media/Function.png)|
+|![Fig15.1](Media/Function.png)|
 |:----:|
 |Figure 15.1: Luckily for us, MATLAB functions aren't THIS complicated.|
 
 Functions are a fundamental part of mathematics and most students are familiar with how they work. In math class you were likely taught that you can think of functions like little machines (figure 15.2) that associate a unique number \(y\), with any given number, \(x\). You may have even learned the terminology that the \(x\) value is the input, and the \(y\) value is the output.
 
-|![Fig15.2](media/In_Out.png)|
+|![Fig15.2](Media/In_Out.png)|
 |:----:|
 |Figure 15.2: The function as a little number manipulation machine|
 
@@ -107,7 +107,7 @@ To be specific, when you are creating a function:
 
 Let's continue with the max() function to investigate our next key concept. If you have been doing your brain workouts, you read through the `max()` help text. See figure 15.3 below, specifically the highlighted region.
 
-|![Fig15.3](media/Max_Help.png)|
+|![Fig15.3](Media/Max_Help.png)|
 |:----:|
 |Figure 15.3: A portion of the MATLAB help text for max().|
 
@@ -139,7 +139,7 @@ As an analogy, think of MATLAB as a mechanics garage and think of functions as d
 
 The moral of the story is that MATLAB will *always look in the current working directory for your user defined functions*.
 
-|![Fig15.4](media/Shelf.jpg)|
+|![Fig15.4](Media/Shelf.jpg)|
 |:----:|
 |Figure 15.4: Maybe you throw your new `impact_driver()` into this shed. How is MATLAB supposed to know?|
 
@@ -183,13 +183,13 @@ Now that you understand the importance of the current working directory, navigat
 
 To start, click the "New" drop down arrow on the "Home" tab of the MATLAB GUI toolbar. Click the "Function" option (see figure 15.5 below).
 
-|![Fig15.5](media/Func_Ex1.png)|
+|![Fig15.5](Media/Func_Ex1.png)|
 |:----:|
 |Figure 15.5: What to click on to create a new function in MATLAB.|
 
 Once click the correct button, a new editor window should pop up that looks like figure 15.6 below. MATLAB creates a template function that we can then modify to fit our needs. The reality is there is no difference between a script file and a function *except that a function must begin with the keyword* `function`.
 
-|![Fig15.6](media/Func_Ex2.png)|
+|![Fig15.6](Media/Func_Ex2.png)|
 |:----:|
 |Figure 15.6: A blank function titled untitled().|
 
@@ -229,13 +229,13 @@ Does yours look similar? Keep in mind that the variables `volume` and `radii` ar
 
 At this point go ahead and edit the function template according to my first line above (or even better, use your own variables) and then save your function. Click the save button in the MATLAB GUI. When the save dialogue box opens up, notice how it automatically fills in the function name in the "File Name" text edit box (figure 15.7 below). DO NOT CHANGE THE FILE NAME! If you change it, your function will not work. Don't forget about the current working directory!
 
-|![Fig15.7](media/Func_Ex3.png)|
+|![Fig15.7](Media/Func_Ex3.png)|
 |:----:|
 |Figure 15.7: Notice how MATLAB automatically makes the function name the file name!|
 
 The last thing to notice is your "Current Folder" browser. Notice the icon looks differently than a script file! It has a little \(f_x\) in the icon instead of the MATLAB logo. This is another little visual indicator when you are browsing your folders that it isn't a script file, but is actually a function file.
 
-|![Fig15.8](media/Func_Ex4.png)|
+|![Fig15.8](Media/Func_Ex4.png)|
 |:----:|
 |Figure 15.8: Notice the icon in the current folder browser is different.|
 
@@ -253,7 +253,7 @@ When someone types in `>>help function_name` MATLAB returns all commented lines 
 
 You can see this in action! Go ahead and type >>help sphere_vol in the command window. See the text? Well that isn't very helpful. So let's replace it so that it is actually helpful. See figure 15.9 below for how I defined my help text.
 
-|![Fig15.9](media/Func_Ex5.png)|
+|![Fig15.9](Media/Func_Ex5.png)|
 |:----:|
 |Figure 15.9: Our sphere_vol() function up to this point.|
 
@@ -277,7 +277,7 @@ volume = (4/3)*pi*(radii.^3);
 
 That is it! Notice that we had to use the `.^` to account for the possibility that our user would input an array of radii. If the user just inputs a scalar value, the function will still work. At this point we have completed the function. It should look similar (if you used your own variable names, those will be slightly different) to figure 15.10 below.
 
-|![Fig15.10](media/Func_Ex6.png)|
+|![Fig15.10](Media/Func_Ex6.png)|
 |:----:|
 |Figure 15.10: Our completed sphere_vol() function!|
 
