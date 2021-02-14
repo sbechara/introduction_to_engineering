@@ -31,7 +31,7 @@ On July 22, 1983, Air Canada flight 143 took off from Montreal to Edmonton. Befo
 
 I hope that you can guess based off the chapter title. The problem was an incorrect unit conversion and a whole host of other errors)! In 1983 when the incident occurred, Canada was in the process of converting the country to the metric system. The new 767 involved in the incident was supposed to be calibrated using metric units, but all other Air Canada aircraft at the time were still operating with Imperial Units. The pilot calculated that the flight required 22,300 kilograms of fuel. A [float stick](https://en.wikipedia.org/wiki/Floatstick) check showed that there was already 7,682 liters of fuel in the tanks. Note that the calculation is in *kilograms*, a unit of mass, and the float stick indicated a volume, in *liters*. The crew used an incorrect *conversion factor* that related mass of a liter of fuel to pounds, an error that went unnoticed by the flight crew. We will explore the specific mathematical errors the crew made later in this chapter. The moral of the story, a flight crew made a bad conversion, that crashed a plane. Luckily, no one died but the story highlights the importance of converting units carefully.
 
-##Units vs Dimensions
+## Units vs Dimensions
 
 It is easy to get units and dimensions mixed up. It helps to think of dimensions as **fundamental and usually unspoken** whereas units are **derived from the dimension and quantify the dimension**. 
 
