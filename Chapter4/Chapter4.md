@@ -60,7 +60,7 @@ The last thing I want to mention about learning is that you also need to go beyo
 
 Go ahead, fire it up! When you first open excel, you are presented with this glorious screen:
 
-|![figure4.4](Media/figure4_4.png)|
+|![figure4.4](Media/figure4_4.PNG)|
 |:---:|
 |*Figure 4.4: What you are presented with when you open Microsoft Excel.*|
 
@@ -76,7 +76,7 @@ The cell is the basic storage unit of the spreadsheet. Cells are the little boxe
 
 **Cells are identified by their column (which are identified by letters) and their row (which are identified by sequentially increasing numbers). The combination of the column letter and the row number is called their address.** 
 
-|![figure4.5](Media/figure4_5.jpg)|
+|![figure4.5](Media/figure4_5.JPG)|
 |:---:|
 |*Figure 4.5: A cell address is just like your home address.*|
 
@@ -190,7 +190,7 @@ Each excel function must be written in a specific but similar way. Just like typ
 
 The input arguments in the function can refer to individual cells, a range of cells, or might even be entirely optional. For example, Excel has a function =pi() that takes no input arguments. That doesn't mean that the parenthesis are optional though! All Excel functions **must include parenthesis after the function name**. For now, open your script you have been using to follow along and replace the cell that contains the approximation of $${\pi} = {22/7}π=22/7$$ with `=pi()`.
 
-|![figure4.10](Media/figure4_10.jpg)|
+|![figure4.10](Media/figure4_10.JPG)|
 |:---:|
 |*Figure 4.10: For following along, change **D4** to **=pi()** and add a total row.*|
 
