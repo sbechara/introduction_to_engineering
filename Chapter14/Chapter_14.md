@@ -1,5 +1,5 @@
 # Chapter 14: MATLAB Loops
-|![Fig14.1](media/Rollercoaster.jpg)|
+|![Fig14.1](Media/Rollercoaster.jpg)|
 |:----:|
 |Figure 14.1: A little different but perhaps equally as terrifying of a loop!|
 
@@ -26,7 +26,7 @@ Whenever you run into a task that sounds tedious, it is likely a candidate for a
 
 Remember our mantra and guiding process for writing complex programs is: **think, sketch, code, test, repeat.**
 
-|![Fig14.2](media/Think_Sketch.png)|
+|![Fig14.2](Media/Think_Sketch.png)|
 |:----:|
 |Figure 14.2: Our mantra. Breathe it in. LIVE it.|
 
@@ -87,7 +87,7 @@ Before you move on and look at my flowchart, can you create pseudocode or draw a
 
 Keep in mind that it is OK if you are confused or stuck **as long as you gave it an honest try!** Here is my flowchart for this problem:
 
-|![Fig14.3](media/Flow_Chart.png)|
+|![Fig14.3](Media/Flow_Chart.png)|
 |:----:|
 |Figure 14.3: My flowchart for the maclaurin series expansion of sin(x)|
 
@@ -128,13 +128,13 @@ end
 is valid because when the function `length(gamma)` is evaluated by MATLAB, an integer is returned. In this case the increment is equal to 1 because a specific increment was omitted. So if `length(gamma) = 5`, this loop would run 5 times.
 The flowchart for the generic for loop is shown below in figure 14.4.
 
-|![Fig14.4](media/For_1.png)|
+|![Fig14.4](Media/For_1.png)|
 |:----:|
 |Figure 14.4: Generic MATLAB **for** loop flowchart. The variable names are a little different than in the generic code example above (e.g. **index_variable** was shortened to **index**, etc) to preserve space but the logic is the same.|
 
 As an example, consider the example code below in figure 14.5. This may look complicated but in practice it *looks* more complicated than it really is. See if you can follow the logic presented in the figure. It would also help to try and "follow along" on your own on a sheet of paper. See if you can follow the `value` variable throughout the looping process.
 
-|![Fig14.5](media/Ex_Code.png)|
+|![Fig14.5](Media/Ex_Code.png)|
 |:----:|
 |Figure 14.5: An example for loop execution process. You can confirm this by executing the sample code in MATLAB on your own!|
 
@@ -146,7 +146,7 @@ If you search for "for loops" in youtube you can find hundreds of videos of peop
 ### `for-end` Key Concept #1 - Loop Executed a Specified Number of Times
 In the example loop: `for z = 1:2:5` we can see that this loop will only run for a total of three times. The first time through the loop `z = 1`, the second time through, `z = 3`, and the last time through, `z = 5`. The key to remember is that the for-end loop will only run a specified number of times that is pre-determined based off the first line of the loop.
 
-|![Fig14.6](media/Dice.jpg)|
+|![Fig14.6](Media/Dice.jpg)|
 |:----:|
 |Figure 14.6: The loop will only run a specified number of times. Unlike the roll of the dice, this is predetermined by the programmer.|
 
@@ -225,13 +225,13 @@ Returning to our Maclaurin series example, we are *now* ready for the **code** p
   (this is actually a pretty good estimate by the way)
 Give it your best shot! Try and see if you can come up with this code on your own! I believe in you!
 
-|![Fig14.7](media/Ant.png)|
+|![Fig14.7](Media/Ant.png)|
 |:----:|
 |Figure 14.7: I know this is difficult but no pain no gain! Give it your best shot!|
 
 My solution is shown below in figure 14.8:
 
-|![Fig14.8](media/Mac_Solution.png)|
+|![Fig14.8](Media/Mac_Solution.png)|
 |:----:|
 |Figure 14.8: My solution for the Maclaurin expansion of sin(x)|
 
@@ -240,7 +240,7 @@ If you didn't get this exactly it is OK as long as you tried. Spend some time wi
 ## The Dangerous Loop
 This chapter would not be complete without a mention of `while-end` loops. They will be described below, however, I encourage you to *only* use `while-end` loops in cases where it is impossible to use `for-end` loops.
 
-|![Fig14.9](media/Spaceship.png)|
+|![Fig14.9](Media/Spaceship.png)|
 |:----:|
 |Figure 9: Warning: while loops are DANGEROUS|
 
@@ -253,7 +253,7 @@ Before I show you how to create an infinite loop, I will first tell you how to k
 
 To stop an infinite loop, select the MATLAB command window and hit ctrl+c on your keyboard. OK, ready to create an infinite loop? Create the following script, save is as to_infinity_and_beyond.m and click run. Once you get bored of seeing the numbers fly by, hit Ctrl+c on your keyboard to stop it.
 
-|![Fig14.10](media/Infinite_Loop.png)|
+|![Fig14.10](Media/Infinite_Loop.png)|
 |:----:|
 |Figure 10: To infinity, AND BEYOND! I hope Disney doesn't sue me...|
 
@@ -279,13 +279,13 @@ end
 
 You can think of `while` loops as over eager dogs. They will run themselves to death unless you tell them to stop. The way that you tell a while loop to stop is to make sure that at some point in the loop, the initial conditional expression becomes false.
 
-|![Fig14.11](media/Sled_Dogs.jpg)|
+|![Fig14.11](Media/Sled_Dogs.jpg)|
 |:----:|
 |Figure 14.11: The while loop is the overenthusiastic sled dog of the loop world. [Sled dogs do actually run themselves to death](https://animals.howstuffworks.com/animal-facts/peta-oppose-iditarod.htm#pt1).|
 
 The flowchart for the generic while loop is shown below in figure 14.12:
 
-|![Fig14.12](media/While_Loop_Example.png)|
+|![Fig14.12](Media/While_Loop_Example.png)|
 |:----:|
 |Figure 12: A generic while loop flowchart|
 
@@ -322,7 +322,7 @@ I know this is difficult! You can do it!
 
 The code solution to the problem is shown below in figure 14.13. Make sure that you give it an honest try before looking at the solution though! Do not skip your brain workouts, you will only cheat yourself.
 
-|![Fig14.13](media/Mac_Solution_2.png)|
+|![Fig14.13](Media/Mac_Solution_2.png)|
 |:----:|
 |Figure 14.13: The solution. The **num_terms** variable will be an integer that is equal to the number of terms necessary to get better than 99% accuracy.|
 
@@ -340,7 +340,7 @@ Speaking of practice, here is one last challenge question to end the chapter wit
 
 Remember, the final grades are calculated as follows:
 
-|![Table1](media/Grade_Table.png)|
+|![Table1](Media/Grade_Table.png)|
 |:----:|
 |Table 1: How letter grades are calculated from numeric grades|
 
