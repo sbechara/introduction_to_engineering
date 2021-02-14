@@ -1,6 +1,6 @@
 # Chapter 1: Is it a bird? Is it a plane?
 
-|![fig1.0](media/Superhero.jpg)|
+|![fig1.0](Media/Superhero.jpg)|
 |:----:|
 |*Figure 1.0: Engineers bestow superhuman powers.*|
 
