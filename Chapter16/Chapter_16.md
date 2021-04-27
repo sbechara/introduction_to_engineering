@@ -2,11 +2,11 @@
 
 |![Fig16.1](Media/People.jpg)|
 |:----:|
-:Figure 16.1: It can be scary looking at a large audience, even for us who do it a lot.|
+|Figure 16.1: It can be scary looking at a large audience, even for us who do it a lot.|
 
 One important, but often overlooked, skill in engineering is presenting. From talking with students, I have noticed that a lot of engineering students are intimidated by public speaking. In fact, although I have almost a decade of experience lecturing, I still am a little scared standing in front of a large classroom! It is OK to be a little nervous. I tell students being *a little* nervous means that you care, and caring is part of successful presentations. This chapter aims to reduce your presentation anxiety by teaching you the skills you need. The main key is to practice, know the format, and be prepared.
 
-## Learning Goals
+![](Media/learninggoals1.png)
 
 In this chapter we will learn:
 
@@ -16,6 +16,8 @@ In this chapter we will learn:
 - What "audience" means and how to use what you know about your audience to your advantage.
 - The art of PowerPoint and how to use the features in a non-distracting way.
 - What should (and should not) be included in a technical presentation.
+
+![](Media/learninggoals2.png)
 
 ## Why Learning How to Present Is Important
 
@@ -33,7 +35,7 @@ Before we jump into some examples and tips, I wanted to take a quick note on pre
 
 |![Fig16.2](Media/Panic.jpg)|
 |:----:|
-|Figure 16.2: The Key is to Not Panic! (https://pixabay.com/illustrations/keyboard-button-panic-fear-anxiety-114439/)|
+|Figure 16.2: The Key is to Not Panic!|
 
 One of the biggest keys to reducing your anxiety is **preparation**. In fact, there is no such thing as "over preparing". The more you prepare for your presentation the better you will feel because you will be more confident about what you are speaking on.
 
@@ -167,7 +169,8 @@ It is supposed to be entrepreneur's getting the opportunity of a lifetime to get
 The following pitch is atrocious but the product is actually kind of an interesting idea. It seems to me that if she had given a more dynamic and engaging pitch, the investors may have been more interested. In fact, one of the investors says as much.
 With that out of the way, watch the following pitch from Gayle Blanchflower (I couldn't find out if this spelling was correct). Note: the video should automatically start at 30:12 for you. If it doesn't you can skip there. Also, be prepared to answer some questions on what you think went wrong with her pitch.
 
-[Video 16.1: A truly atrocious presentation. Start at 30:12 and watch to 40:17. It is a LOT of cringe but it will give you some ideas about what makes for a good and bad presentation.]()
+|:--:|
+|[Video 16.1: A truly atrocious presentation. It is a LOT of cringe but it will give you some ideas about what makes for a good and bad presentation.](https://vimeo.com/80803929)|
 
 > Discussion 16.2: An atrocious presentation
 
@@ -178,20 +181,13 @@ I am truly sorry for putting you through that. However, I hope you agree that it
 ### Content
 
 1. **Know your audience**
-
 Your audience will dictate what you are presenting. If you are presenting on the efficacy of vaccines to a group of doctors, you can assume that they know what vaccines are and how they work, therefore, you can leave that information out of the presentation. However, if you are giving the same presentation to a group of middle schoolers, it might be a good idea to include that background information. The key is to know your audience and tailor the presentation to their knowledge.
 
-2. **Convey your excitement**
+2. **Convey your excitement** If you aren't excited about your project, your audience surely will not be. Get excited and make your presentation exciting the best that you can.
 
-If you aren't excited about your project, your audience surely will not be. Get excited and make your presentation exciting the best that you can.
+3. **Tell a story** This chapter gives you the basic framework (you can think about it like the beginning, middle, climax, end or a story) but you need to tell it. The more you can make your presentation flow like a story, the better.
 
-3. **Tell a story**
-
-This chapter gives you the basic framework (you can think about it like the beginning, middle, climax, end or a story) but you need to tell it. The more you can make your presentation flow like a story, the better.
-
-4. **Keep it simple (communicate, don't obfuscate)**
-
-Every field has jargon and acronyms that make people feel smart for knowing. Don't lose your audience in the lingo! This is where knowing your audience is critical but in reality, even scientists and engineers appreciate brief definitions of scientific terminologies and processes.
+4. **Keep it simple (communicate, don't obfuscate)** Every field has jargon and acronyms that make people feel smart for knowing. Don't lose your audience in the lingo! This is where knowing your audience is critical but in reality, even scientists and engineers appreciate brief definitions of scientific terminologies and processes.
 
 ### You
 
