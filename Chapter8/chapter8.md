@@ -1,21 +1,17 @@
 # Chapter 8: MATLAB Scripting and Arrays
+
 |![fig1.1](media/figure8.1.jpg)|
 |:---:|
 |*Figure 8.1: Type, type, type.*|
 
-
-
 To start this chapter I would like you to consider a situation where you need to perform the same *calculation* with *different numbers* multiple times. For example, lets pretend that you are preparing for a final exam, and you would like to know how different final exam grades will impact your overall average. You have already taken midterm 1, midterm 2, and midterm 3 so those grades are locked. You recall that to calculate average all you have to do is sum your values and divide the sum by the number of entries. For you math folks, the formula is:
 
 \\[ average=\frac1n\sum_{i=1}^na_i \\]
-​	
-  
 
 You MATLAB code might look something like this. Feel free to type this into the MATLAB command window yourself, it is good practice).
 
 
-
-|![fig1.1](media/tryit_top.png)|
+![](media/tryit_top.png)
 
 ```MATLAB
 >> midterm_1 = 86;
@@ -27,7 +23,7 @@ You MATLAB code might look something like this. Feel free to type this into the 
 
 *Note: there are actually even better and more clever ways of performing this exact same calculation in MATLAB but for now, lets stick with this example.*
 
-|![fig1.1](media/tryit_bottom.png)|
+![](media/tryit_bottom.png)
 
 |![fig1.1](media/figure8.2.png)|
 |:---:|
@@ -52,13 +48,9 @@ Hint, you can hit the up arrow key on your keyboard to bring up your recent comm
 
 At this point you can see that your ```average_exam_score variable``` has been updated to the value of 83.75. If you were following along, the variables in your workspace should look like this (Figure 8.3 to the right).
 
-
-
 Here is the problem. If you close MATLAB and reopen it all of those variables are lost (technically you *could* recover them from your command history but that is a hassle). What happens if we want to re-calculate your grade to see what would happen if you get a 95 on the final? You would have to retype all of those lines back in! Clearly, that is not very efficient. The power in MATLAB and most scripting programming languages is that you can make a script that can be changed and re-run with whatever variables you choose. The *script* is just a linear series of commands that MATLAB executes stored in a file with a .m extension.
 
-
-
-|![fig1.1](media/learninggoals_top.png)|
+![](media/learninggoals_top.png)
 In this chapter we will expand off of the previous chapter to show you the real power of MATLAB. We will learn:
 
 - How to write MATLAB programs (aka: scripts) and how to save them.
@@ -70,7 +62,7 @@ In this chapter we will expand off of the previous chapter to show you the real 
 - How to address vectors and matrices
 - Two of the built-in functions MATLAB provides for handling and manipulating arrays
 
-|![fig1.1](media/tryit_bottom.png)|
+![](media/tryit_bottom.png)
 
 
 ##Script Files
@@ -98,7 +90,7 @@ Remember, the whole point of having scripts is so that we can save them and run 
 
 >Click on the location that displays the current working directory for MATLAB. This is the >directory that MATLAB currently has access to.
 
->|![q8.1](media/question8.1.png)|
+>![](media/question8.1.png)
 
 
 
@@ -107,13 +99,9 @@ In Question 8.1 above the current directory being displayed is ```/home/sbechara
 
 Now that you know where you want to save your file, click the little "Save" icon on the "Editor" tab. Notice that MATLAB automatically appends a ```.m``` to the file as the extension. I saved mine as ```avgExam.m```. You should notice the file show up under the "Current Folder" portion of the workspace and notice that the asterisks is no longer listed next to the name (figure 8.6).
 
-
-
 |![fig8.6](media/figure8.6.png)|
 |:---:|
 |*Figure 8.6: Notice that the current folder now has avgExam.m and that the asterisks is no longer next to the filename indicating that the file was successfully saved.*|
-
-
 
 ##Running Your Script
 |![fig8.7](media/figure8.7.png)|
@@ -122,14 +110,11 @@ Now that you know where you want to save your file, click the little "Save" icon
 
 Double check that you have ```avgExam.m``` in your "Current Folder". We are ready to run our first script! There are actually two ways to run the script.  The first way is to click the green "Run" button on the "Editor" banner. Go ahead and click it now! 
 
-
 |![fig8.8](media/figure8.8.png)|
 |:----:|
 |*Figure 8.8*|
 
 If you typed everything in correctly, the only thing that you should notice when the program is complete is that you now have several new variables in your workspace corresponding to your variables (specifically the ```midterm_1, midterm_2, midterm_3, final```, and``` average_exam_score``` variables).
-
-
 
 >**Question 8.2: What is displayed in the command window?**
 
@@ -140,17 +125,17 @@ The preceding question is actually the *other way* that you can run your ```.m``
 
 
 
-|![tryit](media/tryit_top.png)|
+![](media/tryit_top.png)
 Remember, we need to workout your brain muscles to make them stronger and to ensure that you remember how to do this! **Do not skip these steps!**
 
 - Try playing around with the different exam scores, saving, and re-running your script.
 - Try navigating to a different folder. Then click the Run button. What does MATLAB do?
 - Try clicking "Save As" and changing the file name. Try both methods you learned above to re-run the script.
 
-|![tryit](media/tryit_bottom.png)|
-
+![](media/tryit_bottom.png)
 
 ##Script Headers and Commenting
+
 Commenting is a critical component of scripting because it allows us to understand what we did in the past so that we can work with scripts in the future. Do you remember the correct symbol for commenting in MATLAB? (If not you can click here to return to that chapter to review). Hint: ```%```.
 
 It is a good habit to create headers for your MATLAB scripts that contain useful information about your script. It may seem obvious what you are working on now, but open up this script a few weeks, months, or years, in the future and you will have no idea what it is for! That is why headers are so important. You can use comments because MATLAB ignores commented lines of code. I suggest that your script header contains the following information:
@@ -188,6 +173,7 @@ For now, you can save this script (we will use it in the next Chapter) and close
 
 
 #Arrays - The Fundamental Data Type of MATLAB
+
 As we will see in future chapters, our script can be further improved using arrays, the fundamental data type in MATLAB. An array is a list of numbers arranged in rows and/or columns. In practice, **one dimensional arrays are called vectors** and has numbers stored in either a row or a column. **Two dimensional arrays are called matrices** and are collections of numbers stored in both rows and columns.
 
 
@@ -202,17 +188,13 @@ As we will see in future chapters, our script can be further improved using arra
 To create a **row vector** in MATLAB, you use square brackets and input your data in the brackets using either spaces or commas: 
 
 ```MATLAB
-
 row_vector = [vector elements go here] OR row_vector = [vector,elements,go,here]
-
 ```
 
 Try typing the following line into the *command window*. Instead of spaces, you can put commas between the numbers if you prefer. I recommend trying it both ways for your brain workout. Do not copy and paste! typing it out will help with remembering: 
 
 ```MATLAB
-
 >>final = [88 89 90 91 92 93 94 95 96 97 98 99]
-
 ```
 
 When you hit enter, you should see MATLAB displays the row vector to you in the command window. Now we have a row vector that corresponds to a bunch of different scores to the final. This can be useful because it allows us to calculate a whole array of different averages based on the different exam scores! We will learn how to do that in the next chapter. For now, concentrate on learning the basics of arrays.
@@ -221,15 +203,12 @@ To create a **column vector** in MATLAB, you use square brackets just like befor
 
 ```MATLAB
 column_vector = [vector;elements;go;here]
-
 ```
 
 Try typing the following line into the command window. Like before, try hitting ENTER after each element instead for your brain workout):
 
 ```MATLAB
-
 >> final = [88;89;90;91;92;93;94;95;96;97;98;99]
-
 ```
 
 
@@ -257,13 +236,13 @@ In this case ```start``` is referring to the first term in the series, `spacing`
 
 
 
-|![tryit](media/tryit_top.png)|
+![](media/tryit_top.png)
 Try typing the following into the command window to see how it works:
 
 ```MATLAB
 >> final = [88:1:99]
 ```
-|![tryit](media/tryit_bottom.png)|
+![](media/tryit_bottom.png)
 
 
 I am sure you will agree that is a lot better! Brain workout time, try messing around with different numbers to see how MATLAB reacts. Try creating different equally spaced variables and name them different things. Spend a moment to see how they show up in the workspace.
@@ -288,13 +267,14 @@ For example) `>> final = [88:99]` will create an array from 88 to 99 spaced by 1
 
 >Which of the following commands will create a negatively spaced array called backwards_boi that contains the numbers 99 through 88 in decreasing order?
 
->A: backwards_boi = ​[99:-1:88]
-B: backwards_boi = ​[88:-1:99]
-C: backwards_boi = ​[99:1:88]
-D: backwards_boi = ​[88:1:99]
+>A: ```backwards_boi = ​[99:-1:88]```
+B: ```backwards_boi = ​[88:-1:99]```
+C: ```backwards_boi = ​[99:1:88]```
+D: ```backwards_boi = ​[88:1:99]```
 
 
 ##Creating a Vector with Linear Spacing
+
 Sometimes it is useful to create arrays that contain a *specific number* of values between two points. In these cases, it might be difficult to use the `:` operator. For example, we might need 12 equally spaced points between 2 and 4. You can do the math to figure out how to use the `:` operator but since that sounds tedious, you can bet there is a built-in MATLAB function to make our lives easier.
 
 The `linspace()` function will do this for us. We can create these types of variables using `linspace()` as follows:
@@ -314,18 +294,14 @@ Lets try it with our example above by typing the following into the command wind
 Notice how the array is equally spaced and that there are exactly 12 elements in the array. Brain workout time. Play around with ```linspace``` on your own. Try different combinations of numbers and variable names. Notice how they appear in the workspace. **DO NOT SKIP YOUR WORKOUT!***
 
 
-
 ##Creating Matrices
 Recall that a matrix has numbers in both row and columns. They are used extensively in science and engineering and are useful for storing numbers in table like formats or for other linear algebra techniques that you will learn in future classes.
 
 The terminology we will use in the this class is to describe matrices by the number of rows and columns they have. Furthermore, you can have either square or non-square matrices depending on the number of rows and columns. Consider the following two matrices:
 
-
-
 |![fig8.12](media/figure8.12.png)|
 |:----:|
 |*Figure 8.12: Example matrices*|
-
 
 In figure 8.12 above, we can see that the matrix `square` has 3 rows and 3 columns. To make it easy to write, it is common to say that this is a 3x3 (pronounced "three by three") matrix. Square matrices have the same number or rows and columns. It follows that since `not_square` has 4 rows and 3 columns that it is not square. We would say this is a 4x3 matrix (pronounced "four by three").
 
@@ -335,21 +311,19 @@ Creating matrices in MATLAB is as easy as combining what we have learned about c
 matrix_name = [1st row elements; 2nd row elements; ... ; Last row elements]
 ```
 
-
-|![tryit](media/tryit_top.png)|
+![](media/tryit_top.png)
 Lets try making our own matrix by typing the following into the command window:
 
 ```
 >> neo = [1 2 3; 4 5 6; 7 8 9]
 ```
 
-|![tryit](media/tryit_bottom.png)|
+![](media/tryit_bottom.png)
 
 
 Notice that this creates a 3x3 matrix called `neo`s. Brain workout time.He had a 64.99 which rounds to 65 according to my course policy. I also state that a 66 
 
 The only difference between matrices and vectors is that *all the rows must have the exact same number of elements*. For example, you can't have row 2 have 3 elements, while row 3 has 4 elements.
-
 
 
 >**Question 8.6: MATLAB Error**
@@ -415,7 +389,7 @@ If you ran the ```>>rex = [2:2:10]``` line of code above in the MATLAB command w
 >**Question 8.8: Transpose neo**
 >Given the image of the user's workspace, consider command trinity = neo' to be entered into the command window. What would the trinity variable look like in the workspace after typing in that command?
 
->|![q8.8](media/question8.8.png)|
+>![](media/question8.8.png)
 A: trinity = ​[1,4,7;2,5,8;3,6,9]
 B: trinity = ​[1,2,3;4,5,6;7,8,9]
 C: trinity = ​[7,8,9;4,5,6;1,2,3]
@@ -487,10 +461,10 @@ As you can see, addressing values inside of vectors is as easy as typing in the 
 
 
 
-|![tryit](media/tryit_top.png)|
+![](media/tryit_top.png)
 Brain workout time. Try creating different size row and column vectors with random numbers and use array addressing to make sure that you understand how to pull out the correct values. Array addressing on row and column vectors works the exact same way. The addresses start at 1 and go from there.
 
-|![tryit](media/tryit_bottom.png)|
+![](media/tryit_bottom.png)
 
 
 ##Matrix Addressing
@@ -516,9 +490,9 @@ And now you know array addressing for both matrices and vectors! The main trick 
 
 
 
-|![tryit](media/tryit_top.png)|
+![](media/tryit_top.png)
 You know the drill. Brain workout time. I suggest that you make a random 4x5 matrix on a sheet of paper. Make sure that you can successfully type that matrix into MATLAB. Next, use array addressing to make sure that you can pull out numbers successfully. The nice thing about not using a square matrix is, it will show you if you really understand the row/column law of MATLAB.
-|![tryit](media/tryit_bottom.png)|
+![](media/tryit_bottom.png)
 
 
 >**Question 8.10: Matrix addressing practice**
@@ -592,8 +566,6 @@ Because matrices have two dimensions, there are many more ways that we can use t
 Hopefully you still have some matrices stored in your workspace. Before you continue, see if you can guess how to use the `:`s operator on matrices to pull out a range of values. Can you figure out at least a couple of ways to make it work?
 
 If you couldn't figure any out, *that is OK!* The fact that you tried is all that matters.
-
-|![tryit](media/tryit_bottom.png)|
 
 Here are some of the ways that you can address a range of elements within a matrix. For this example, lets consider the general case of a matrix `A`. It can have any number of rows and columns. 
 

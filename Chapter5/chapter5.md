@@ -2,13 +2,13 @@
 
 |![fig5.1](media/figure_5.1.jpg)|
 |:---:|
-|*Figure 5.1*|
+|*Figure 5.1: There are SO MANY stock images of people working on macs in coffee shops it isn't funny*|
 
 The old adage "a picture is worth a thousand words" is especially relevant in the 21st century. Our smartphones and computers are excellent at displaying graphs and pictures and a good graph can convey a ton of useful information. It is a useful and marketable skill to be able to make legible, easy to read, and beautiful graphs. Furthermore, in the current digital age with [the rise of misinformation and fake news](https://journalistsresource.org/studies/society/internet/fake-news-conspiracy-theories-journalism-research/), it is useful to learn how to make correct and honest graphs so that when you encounter poor or misleading graphs, you are more likely to identify them as such.
 
 In this chapter, we will explore how to make graphs in Excel, what all *good* graphs have in common. In the next chapter we will learn how to safely use Excel's built in mathematical modeling as an engineer.
 
-|![leanring_goals](media/learning_goals.png)|
+![](media/learning_goals.png)
 
 As mentioned above, this chapter will concentrate on how to make graphs in Excel. This will include learning the following:
 
@@ -18,11 +18,12 @@ As mentioned above, this chapter will concentrate on how to make graphs in Excel
 - How to create a column chart in Excel.
 - How to use the "Format Cells..." menu.
 
-|![leanring_goals_bottom](media/learning_goals_bottom.png)|
+![](media/learning_goals_bottom.png)
 
 
 
 ##The Elements of a Good Graph
+
 Before we dive into *how to make* graphs in Excel, it is useful to first understand what makes a good graph. For this example, lets consider [Hooke's Law](https://en.wikipedia.org/wiki/Hooke%27s_law). You might recall from your physics class that Hooke's Law is a law of physics that describes that the force **\\( {F} \\)** required to displace (stretch or compress) a spring by some distance **\\( {x} \\)** is linearly proportional to the distance **\\( {x} \\)**. That sentence translates to a mathematical equation:
 
 \\[ F = kx\\]
@@ -31,31 +32,21 @@ Where **\\( {F} \\)** is the force, **\\( {x} \\)** is the distance, and **\\( {
 
 Let's imagine that you are working as a professional engineer and are reverse engineering a competitors product (yes, this is a real thing that actually happens in professional environments). You find a spring on the product and need to determine it's spring constant. You devise an experiment that consists of loading the spring with several different masses such that when it is oriented vertically, it applies a stretching force. Then you measure all of the distances, **\\( {x} \\)**, that arise from the different forces. Aren't you so clever?!
 
-
-
 |![fig5.2](media/figure_5.2.png)|
 |:---:|
 |*Figure 5.2: In this figure, the spring is the black squiggly line. At first, the spring is un-stretched. When a mass, m, is added (creates a force F that is not shown) to the spring, it stretches x meters.*|
 
-
 Next, you realize that Excel would be excellent for this type of data! Good thing you were paying attention in your introductory engineering courses! You enter your data into Excel as shown in figure 5.3 below.
-
-
 
 |![fig5.3](media/figure_5.3.png)|
 |:---:|
 |*Figure 5.3: Example of data entry from experiment described.*|
 
-
 Finally, you realize that you can plot this data and that it *should* look relatively linear. When you were reading Chapter 5 in your Hands On Engineering textbook your freshman year (meta, I know), you skimmed that particular chapter because you were so confident in your Excel graphing skills. So this is the plot you come up with.
-
-
 
 |![fig5.4](media/figure_5.4.png)|
 |:---:|
 |*Figure 5.4: Your graph from the experimental data.*|
-
-
 
 You look at the plot, realize that it looks fairly linear (which is what you expect from the relationship **\\(F=kx\\)**) and you submit this to your boss explaining that you solved the mystery of the spring constant! Your email explains that the it isn't perfectly linear because of errors in measurement but that you can derive the spring constant from this graph. 
 
@@ -63,19 +54,14 @@ Is your boss happy with your work? Or is your boss upset at your graph? I'll go 
 
 Contrast the plot in Figure 5.5 with the plot in Figure X below.
 
-
-
 |![fig5.5](media/figure_5.5.png)|
 |:---:|
 |*Figure 5.5: A significantly improved graph of your experimental data*|
 
-
-
 The plot in figure 5.5 above is *clearly* better. We don't even have to dive into the physics or math, it is much easier to understand on its own. It displays more information, is easier to read, and much easier to understand what the data is saying. Before we learn how to graph it is important to keep the following guidelines in mind.
 
-
-
 ##Graphing Guidelines
+
 - Label axes clearly and make sure you include the name, symbol and the units.
 - Provide grid lines so that readers can make estimations of the data points.
 - If there is more than one line or data set on the graph, you must include a legend.
@@ -85,8 +71,6 @@ The plot in figure 5.5 above is *clearly* better. We don't even have to dive int
 - Ensure that the font, size, and color of text is easy to read.
 
 The nice thing about learning and remembering these graphing guidelines before we start learning how to graph, is it will inform us on what is important to learn. We will also learn about what the mathematical model (the trendline and equation) on the graphs mean, how to select an appropriate one, and how to interpret R^2 values.
-
-
 
 >Question 5.1: A similar experiment
 
@@ -178,7 +162,7 @@ To learn how to create graphs pin Excel, lets continue the spring experiment exa
 
 
 
-|![try_it](media/try_it.png)|
+![try_it](media/try_it.png)
 To get started, recreate the spreadsheet shown below in figure 5.10. It would be helpful for you if your rendition is exactly the same as mine (that means that the numbers look the same and they are in the same cells). That is OK because it is good practice to remind yourself how to use the formatting tools. Remember, we are here to workout our brains!
 
 
@@ -246,23 +230,16 @@ In this case, we want to create two plots on the same axes showing the different
 
 Whew, that was a lot! For a quick video recap of the entire process, see video 5.1 below.
 
-
-
-
-
-[Video 5.1: A recap of steps 1-10 on how to create a chart in Excel.](https://www.youtube.com/watch?v=WbevBtFvKqA&feature=emb_logo)
-
+|:--:|
+|[Video 5.1: A recap of steps 1-10 on how to create a chart in Excel.](https://www.youtube.com/watch?v=WbevBtFvKqA&feature=emb_logo)|
 
 ##Adding a Title, Axes Labels, and More
+
 You will notice that leaves us with a nice chart but it is still lacking components that are necessary according to the graphing guidelines that we established above. Luckily, the rest of the required components are available to add from one menu button, the "Add Chart Element" button (see figure 5.16 below).
-
-
 
 |![fig5.16](media/figure_5.16.png)|
 |:---:|
 |*Figure 5.16: Add chart element button. Notice that it is under the "Design" tab under the "Chart Tools" section of the main navigation bar. Remember, **this menu only shows up if the chart is selected**!*|
-
-
 
 To finish our chart, we are going to use the "Axis Titles", "Chart Title", and "Legend". We will investigate the "Trendline" in the next section of this chapter. For now, go ahead and add the titles and legend. You can just select the appropriate item from the menu, then edit the field by double clicking on it. When you are finished your chart should like identical to the one below (figure 5.17). Good work!
 
@@ -275,68 +252,49 @@ To finish our chart, we are going to use the "Axis Titles", "Chart Title", and "
 
 If you are confused about how to do this, video 5.2 shows how this process is completed.
 
+|:---:|
+|[Video 5.2: A short video showing how to add the essential chart elements.](https://www.youtube.com/watch?v=MG3X6mhpWmk&feature=emb_logo)|
 
-
-
-
-[Video 5.2: A short video showing how to add the essential chart elements.](https://www.youtube.com/watch?v=MG3X6mhpWmk&feature=emb_logo)
-
-
-|![try_it](media/try_it.png)|
+![](media/try_it.png)
 Just because this chapter does not explicitly cover the other options (namely; "Axes", "Data Labels", and "Error Bars") does not mean that you shouldn't know how they work. There are cases where these options can be useful. Go ahead and save a copy (go to "File" then "Save as") of your spreadsheet to this point and play around with those options to see what they do and how they work!
-
-|![leanring_goals_bottom](media/learning_goals_bottom.png)|
 
 ###Don't Forget to Save!
 We are going to jump into how to make a column chart next but we will be returning back to the spring example in the next chapter. Don't forget to save your Excel file somewhere where you will remember so we can refer back to it!
-
-
 
 ##How to Make a Column Chart in Excel
 The process for creating a column chart is very similar to the process of creating a scatter plot. The main idea is the same: get the data into the spreadsheet, add the appropriate chart type to the spreadsheet, and then edit the chart so that Excel knows where to look for the data.
 
 In this example, lets compare the average cost of tuition for a few different types of Universities. This data is real (and kind of frightening! whew private colleges are pricey) and comes from [collegeboard.org](https://research.collegeboard.org/trends/college-pricing/figures-tables/average-published-charges-sector-over-time). To start, make the following spreadsheet (figure 5.18 below). Again, it behooves you to make it exactly the same as my chart below.
 
-
-
 |![fig5.18](media/figure_5.18.png)|
 |:---:|
 |*Figure 5.18: What your Excel spreadsheet should look like. Private Universities are EXPENSIVE.*|
-
 
 ###Formatting Cells
 Since we are comparing these 4 values, it makes sense to use a column chart. Since these are dollar amounts, we should learn how to have Excel display them as currency. To do this, select all the cells that contain the dollar amounts, then right click and select the "Format cells..." menu item. From there, you will see several options (again, it is a good idea to explore these on your own) but the one we are interested is located under the "Number" tab. Select the "Currency" option, reduce the decimal places option to 0 (or leave it at 2, your call), then click Ok. The cells should automatically populate with dollar signs. Cool!
 
 
 
-|![leanring_goals](media/learning_goals.png)|
+![](media/try_it.png)
 Before you move on, don't skip your brain workout! Spend a few seconds poking around the "Format cells..." menu to see what everything does!
-
-|![leanring_goals_bottom](media/learning_goals_bottom.png)|
 
 ###Insert the Column Chart
 Now that the cells are formatted nicely, the next step is to insert the column chart. The process here is *very similar* to inserting a scatter plot. This is another good brain workout opportunity. Try and figure out how to create the column chart on your own, remembering that the process is almost identical to the scatter plot! Try and use the "Add Chart Element" options to create the chart shown below in figure 5.19. Try and make it as close to the exact same thing as possible.
-
-
 
 |![fig5.19](media/figure_5.19.png)|
 |:---:|
 |*Figure 5.19: You can do it! Don't worry if you get stuck or if it takes a little time!*|
 
-
 To double check your process, you can see how I accomplished creating this chart in the video below.
 
-
-
-
-
-[Video 3: Before you watch the video make sure that you gave it a try! You can do it!](https://www.youtube.com/watch?v=zzl9XJoRwEk&feature=emb_logo)
+|:--:|
+|[Video 3: Before you watch the video make sure that you gave it a try! You can do it!](https://www.youtube.com/watch?v=zzl9XJoRwEk&feature=emb_logo)|
 
 
 >Question 5.3: Where is the "Add Chart Elements" menu?
 
 >Look at the following screenshot. You should notice that the main ribbon does not have the "Chart Tools" section which we would need to access the "Add Chart Elements" menu to add items such as a legend or grid lines. Why is this ribbon item missing?
->|![question_5.3](media/question_5.3.png)|
+>![question_5.3](media/question_5.3.png)
 >A: There is no such ribbon item as described.
 >B: The menu in question is under the "Insert" tab on the ribbon.
 >C: The chart needs to be selected by clicking on it.
@@ -345,7 +303,7 @@ To double check your process, you can see how I accomplished creating this chart
 
 >Question 5.4: How do I move the legend?
 >Consider the following screenshot. If I wanted to move the legend on the chart to the bottom of the chart, where would you FIRST need to click?
->|![question_5.4](media/question_5.4.png)|
+>![question_5.4](media/question_5.4.png)
 
 
 ##Ethics: Misleading Graphs

@@ -22,7 +22,7 @@ Most engineering undergraduates have some exposure to Excel, perhaps you had to 
 > 5. I know nothing about Excel
  
 
-![learninggoals](Media/learninggoals1.png)
+![](Media/learninggoals1.png)
 
 In this chapter we will explore Microsoft Excel and what we will be expected of you as an engineering student. That means learning:
 
@@ -33,7 +33,7 @@ In this chapter we will explore Microsoft Excel and what we will be expected of 
 - Built-in Excel Functions
 - Conditional formatting
 
-![learninggoals](Media/learninggoals2.png)
+![](Media/learninggoals2.png)
 
 ## Before We Begin Excel: How to Learn Software
 
@@ -70,9 +70,7 @@ There is a LOT going on here, especially if you are new to Excel. Lets dive in t
 
 The most basic use case for Excel is to simply use it to organize information into cells. 
 
-> The cell is the basic storage unit of the spreadsheet.
-
-The cell is the basic storage unit of the spreadsheet. Cells are the little boxes you see above in Figure 4.4 and below in Figure 4.6. You can select any of the cells, and begin typing in numbers, letters, or any combination of the two. 
+**The cell is the basic storage unit of the spreadsheet.** Cells are the little boxes you see above in Figure 4.4 and below in Figure 4.6. You can select any of the cells, and begin typing in numbers, letters, or any combination of the two. 
 
 **Cells are identified by their column (which are identified by letters) and their row (which are identified by sequentially increasing numbers). The combination of the column letter and the row number is called their address.** 
 
@@ -105,11 +103,11 @@ For now, don't worry about being able to replicate Figure 4.6 exactly. **Instead
 
 Now that we are familiar with cell addressing and how to enter data into cells, we can begin to explore one of the most powerful features of Excel, using **cell formulas**.
 
-By using formulas, we can have Excel perform a calculation and show the result in the cell that contains the formula. Excel formulas start with an `=` sign and work essentially like a calculator. For example, if we wanted to calculate the area of a circle (recall **\( {area}={\pi}{r^2} \)**), with a radius of 0.24 meters, we could simply type the following formula into any cell (let \( {\pi} \)) be approximated by **\( {3.1415} \)**:
+By using formulas, we can have Excel perform a calculation and show the result in the cell that contains the formula. Excel formulas start with an `=` sign and work essentially like a calculator. For example, if we wanted to calculate the area of a circle (recall \\( {area}={\pi}{r^2} \\)), with a radius of 0.24 meters, we could simply type the following formula into any cell (let \\( \pi \\) be approximated by \\( 3.1415 \\) ):
 
 `= 3.1415 * 0.24 ^ 2`
 
-Voila! We can then see that the area is \( {0.18095} {meters^2} \). However, we are missing the true power of Excel in this case which is cell referencing.
+Voila! We can then see that the area is \\( {0.18095} {meters^2} \\). However, we are missing the true power of Excel in this case which is cell referencing.
 
 To see an example of cell referencing in action, let's consider a situation where we need to calculate the areas of a bunch of different circles. To start, recreate the spreadsheet shown in Figure 4.8 below (you should be able to recreate this using the formatting tools highlighted in Figure 4.7 above).
 
@@ -136,8 +134,9 @@ You *should* type the following into cell `A4`:
 
 Once you hit enter, you can see that it uses the data from the cell `A4` in the calculation. Now, here is the trick. You can use cell addressing to create formulas and calculate the areas for the other cells automatically! To do so, select cell `B4` by clicking on it. You should notice a little green box (called the "fill handle") in the lower right corner. Click on that, and drag it down so that it fills all the cells in which we would like to calculate an area. This is called copying the cell formula. If you are a little confused on what to do, see video X below.
 
-> [Video 1: Excel Cell Formulas and Referencing](https://www.youtube.com/watch?v=W2khobI_-MM&feature=emb_logo) 
-> What you should notice (and can see in Video 1 in the link to the left) is that Excel automatically creates *new* formulas that have the correct cell address! That is because when we copied the formulas to the new cells Excel assumed that we wanted it to create a new formula with a cell in the same **relative** position as `A4`.
+|:---:|
+|[Video 1: Excel Cell Formulas and Referencing](https://www.youtube.com/watch?v=W2khobI_-MM&feature=emb_logo)|
+|What you should notice (and can see in Video 1 in the link above) is that Excel automatically creates *new* formulas that have the correct cell address! That is because when we copied the formulas to the new cells Excel assumed that we wanted it to create a new formula with a cell in the same **relative** position as `A4`.|
 
 For example, lets think about the *new* formula in `B10`. You can see the new formula by double clicking on it. Notice that the new formula is:
 
@@ -151,12 +150,13 @@ For instance, lets say that instead of typing \( {3.1415} \) we wanted to store 
 |:---:|
 |*Figure 4.9: Add 22/7 in cell D4 as an approximation of Pi.*|
 
-Hopefully you can see that **relative cell addressing** will be a problem in this case. To see what I mean, type `=D4*A4^2` into cell `B4`. Everything should be ok. But when you try to copy the formula down to `B10` you should notice that everything is filled with 0. What is going on? If you look at one of the formulas (for example see the new formula in cell `B6`), you should notice that instead of cell `D4` which corresponds to our approximation of $$\piπ$$, Excel assumed we wanted to try and use a value in `D6` for the calculation. Since there is nothing in `D6`, the calculation is equal to 0!
+Hopefully you can see that **relative cell addressing** will be a problem in this case. To see what I mean, type `=D4*A4^2` into cell `B4`. Everything should be ok. But when you try to copy the formula down to `B10` you should notice that everything is filled with 0. What is going on? If you look at one of the formulas (for example see the new formula in cell `B6`), you should notice that instead of cell `D4` which corresponds to our approximation of \\( \pi \\), Excel assumed we wanted to try and use a value in `D6` for the calculation. Since there is nothing in `D6`, the calculation is equal to 0!
 
-> [Video 2: Excel Absolute Cell Referencing](https://www.youtube.com/watch?v=S6RawRDnOP8&feature=emb_logo)
-> What we need to do to fix it, go back to the formula in `B4` and create an **absolute cell address** for `D4`. To do so, add `$` symbols in front of both the `D` and the `4` like this: `$D$4`. Now when you try to copy the formula to the cells below, it will use **relative cell addressing** for the A cells (which is what we want) and it will use **absolute cell addressing** for the `D4` cell!
+What we need to do to fix it, go back to the formula in `B4` and create an **absolute cell address** for `D4`. To do so, add `$` symbols in front of both the `D` and the `4` like this: `$D$4`. Now when you try to copy the formula to the cells below, it will use **relative cell addressing** for the A cells (which is what we want) and it will use **absolute cell addressing** for the `D4` cell!
 
-A short video showing this is shown in Video 2 in the link above. 
+|:--:|
+|[Video 2: Excel Absolute Cell Referencing](https://www.youtube.com/watch?v=S6RawRDnOP8&feature=emb_logo)|
+|A short video showing this is shown in Video 2 in the link above.|
 
 The last little piece when it comes to cell addressing is there is one more form Excel accepts, **mixed addressing**. You can fix either the row or the column designation by adding a `$` sign. For example, `D$4` would only fix the row and would allow the column to change if the formula is copied.
 
@@ -188,7 +188,7 @@ Each excel function must be written in a specific but similar way. Just like typ
 
 `= function_name(input,arguments)`
 
-The input arguments in the function can refer to individual cells, a range of cells, or might even be entirely optional. For example, Excel has a function =pi() that takes no input arguments. That doesn't mean that the parenthesis are optional though! All Excel functions **must include parenthesis after the function name**. For now, open your script you have been using to follow along and replace the cell that contains the approximation of $${\pi} = {22/7}π=22/7$$ with `=pi()`.
+The input arguments in the function can refer to individual cells, a range of cells, or might even be entirely optional. For example, Excel has a function =pi() that takes no input arguments. That doesn't mean that the parenthesis are optional though! All Excel functions **must include parenthesis after the function name**. For now, open your script you have been using to follow along and replace the cell that contains the approximation of \\( \pi = 22/7 \\) with `=pi()`.
 
 |![figure4.10](Media/figure4_10.JPG)|
 |:---:|
@@ -202,15 +202,16 @@ To use the `sum()` function click on cell B11 and type in the following:
 
 Notice that Excel automatically adds all of the areas in the column! Neat! You should also notice that when functions require a range of cells (such as `sum()`) you can specify the cell range using a colon OR by clicking and dragging to select the range of cells of interest. You can see both ways of adding a range of cells in Video 3 below.
 
-> [Video 3: Excel Functions](https://www.youtube.com/watch?v=sfFEbwdCf9I&feature=emb_logo)
+|:--:|
+|[Video 3: Excel Functions](https://www.youtube.com/watch?v=sfFEbwdCf9I&feature=emb_logo)|
 
 If you understand how to use the `sum()` function you are in great shape! Almost all Excel functions work in an identical way. Here is a list of functions that you should be familiar with. You do not have to memorize them, but you should know what they are and how to use them. 
 
-|![letspractice](Media/letspractice1.png)|
+![](Media/letspractice1.png)
 
 For your brain workout, I suggest looking at Table 4.1 below, and coming up with **your own** practice problems for each of them. That way you will remember how to use them in the future! For example, add some fake data to 5 cells and use the `average()` function to calculate the average. You can also find the standard deviation of those numbers using the `stdev.p()` function. You get the idea.
 
-|![letspractice](Media/letspractice2.png)|
+![](Media/letspractice2.png)
 
 |![table4.11](Media/table4_11.png)|
 |:---:|

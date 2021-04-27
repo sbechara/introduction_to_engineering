@@ -8,7 +8,7 @@ This chapter is a little weird. We are going to learn about relational and logic
 
 Before we jump in, a quick warning on this chapter. It is *really easy* to skip your brain workouts for this chapter. It is so tempting to type everything into MATLAB to get the answers without thinking. I urge you not to do this! When evaluating relational and logical expressions it is important to understand how they work in order to use them correctly. Be honest, follow along with this text, and be sure to not skip your brain workouts! Without further ado...
 
-|![](Media/LearningGoals.png)|
+![](Media/LearningGoals.png)
 
 In this chapter we will learn what the relational and logical operators are and how they work. We will save for *why* we need them until the next chapter. For now, we will learn:
 
@@ -16,7 +16,7 @@ In this chapter we will learn what the relational and logical operators are and 
 - What the order of precedence is and why it matters.
 - How to evaluate statements with mathematical, relational, and logical operators.
 
-|![](Media/LearningGoalsBottom.png)|
+![](Media/LearningGoalsBottom.png)
 
 ## Relational Operators
 
@@ -54,7 +54,7 @@ We saw above that the relational operations evaluate to either **True** or **Fal
 
 In MATLAB, the keyword ```true``` can be used or the number ```1``` can be used to represent **True**. Similarly, the keyword ```false``` and the number ```0``` can be used to represent **False**.
 
-|![](Media/TryIt.png)|
+![](Media/TryIt.png)
 
 The best way to understand what I am trying to say is to try it yourself. So fire up MATLAB and let's investigate how the relational operators work. The brain workout park of this is that *you should stop and think about what should happen before you run any of the following commands!* It will be impossible for anyone to know if you skip this step or not but do not skimp on your brain workouts!
 
@@ -71,7 +71,7 @@ To begin, lets define a few variables in the workspace to work with (we will use
 Next, we can use those variables to investigate how the relational operators work. For example, try executing the following operation in the command window. Before you hit enter, what do you **think** should happen?
 
 ```MATLAB
->> tomato + cucumber
+>> tomato > cucumber
 ```
 
 Hopefully you aren't jumping ahead and are actually taking a moment to think. In any case, you should notice that MATLAB assigns the automatic variable ```ans``` the value of ```1``` which is to say that the operation evaluated as ```true```. That makes sense since ```tomato``` is a variable storing the number ```23``` and ```cucumber``` is storing ```-12```, it is clear that \\( 23 > -12 \\) and we would expect MATLAB to think this is **true**.
@@ -84,7 +84,7 @@ We can also *assign the output of a relational operation to a variable*. To see 
 
 Notice that MATLAB creates a new variable in the workspace called ```result_1``` and that it is storing the number ```0``` which is the same thing as ```false```. That is what we would have expected the following operation to evaluate to.
 
-|![](Media/LearningGoalsBottom.png)|
+![](Media/LearningGoalsBottom.png)
 
 > Question 11.1: Match the relational operations to their result
 > For this question, match the relational operation to the correct result. Assume that the following 3 variables are already loaded into the workspace.
@@ -197,11 +197,11 @@ Lets consider one more example together to tie it all together:
 >> the_answer = 3 == 3 & (~ (42 == 21 * 2 | 65-2 == 65 + 3))
 ```
 
-|![](Media/TryIt.png)|
+![](Media/TryIt.png)
 
 Before you move on to see my solution, make sure you try to solve it on your own! Remember, use the order of precedence, and reduce the statement until you are left with one Boolean value. You can do it! It is important to not skip your brain workouts!
 
-|![](Media/LearningGoalsBottom.png)|
+![](Media/LearningGoalsBottom.png)
 
 Ok, now that you have your solution, I will show you how **I** would solve this problem:
 

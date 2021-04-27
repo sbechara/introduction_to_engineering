@@ -12,7 +12,7 @@ MATLAB is *pricey*. [Currently a single standard license is $2150](https://www.m
 
 Luckily, if you are a student you can sometimes get MATLAB for the low, low price of $0. Some universities pay for their engineering students to have MATLAB licenses! Inquire with your University's IT departments to see if you can download MATLAB for free on your personal computer. If your university does not have a site license, [you can purchase a student license for $49](https://www.mathworks.com/pricing-licensing.html?prodcode=ML&intendeduse=student), which isn't that bad. Since this book is going to use MATLAB in every chapter, you will need to figure out a way to have access to a MATLAB installation.
 
-![learninggoals](Media/learninggoals1.png)
+![](Media/learninggoals1.png)
 
 In this chapter we will explore the basics of MATLAB which will culminate in learning how to use MATLAB as a overpriced calculator. That means learning:
 
@@ -22,7 +22,7 @@ In this chapter we will explore the basics of MATLAB which will culminate in lea
 - How to use MATLAB as a glorified calculator.
 - How to use variables to store information and simplify your calculations.
 
-![learninggoals](Media/learninggoals2.png)
+![](Media/learninggoals2.png)
 
 ## Why MATLAB instead of <insert_programming_language_here>?
 
@@ -78,7 +78,8 @@ It is very important to organize your files and folders when working with MATLAB
 
 You do not need to be an IT Professional to do understand MATLAB. But a critical skill is understanding file structures and directories. For example, you should know that the "path" to the folder shown in figure 7.6 above is `C:\Users\sbechara\Documents\mech103`. If you need a quick refresher on Windows File Structures, try watching the following video to catch up. I personally use GNU/Linux operating systems so when you see screenshots of MATLAB you may notice that the path is a little different (UNIX like systems such as MacOS and Linux use `/` instead of `\` and do not have drive letters like `C:` or `D:`).
 
-[Video 7.1: Windows File Structures Review Video](https://www.youtube.com/watch?v=4xS5IOg_nDw)
+|:--:|
+|[Video 7.1: Windows File Structures Review Video](https://www.youtube.com/watch?v=4xS5IOg_nDw)|
 
 To illustrate the similarities between MATLAB's current folder browser and current folder path to Windows Explorer, see figure 7.7 below. In figure 7.7, **the green boxes indicate the folder path (also sometimes called the current working directory)** (note: in figure 7.7 windows truncated and doesn't show the full path, to see the full path click the << to the left of Documents) which in this case is `C:\Users\sbechara\Documents\mech103\handsonengineering`. The **red boxes indicate the current folder contents**, since the folder is the same we would expect both the Windows File Explorer and MATLAB File Explorer to contain the same files, and they do! The only difference is that MATLAB puts different cute icons to help you quickly understand what your files are. Isn't that nice?
 
@@ -96,11 +97,10 @@ The next thing to learn is how to navigate your computers file system inside MAT
  
 I created a video showing me navigating a file system. See Video 7.2 below for an example. Again, **do not let this be a substitute to actually trying it on your own**!
 
-[Video 7.2: Examples of MATLAB file and folder organization and manipulation capabilities.](https://www.youtube.com/watch?v=7dZKGjWnvnE&feature=emb_logo)
-|:---:|
-|*Video 7.2: Examples of MATLAB file and folder organization and manipulation capabilities.*|
 
-Video 7.2: Examples of MATLAB file and folder organization and manipulation capabilities.
+|:---:|
+|[Video 7.2: Examples of MATLAB file and folder organization and manipulation capabilities.](https://www.youtube.com/watch?v=7dZKGjWnvnE&feature=emb_logo)|
+|Examples of MATLAB file and folder organization and manipulation capabilities. Can be seen in the video above|
 
 So the main things to remember is that the "Current Folder" window in the MATLAB workspace is showing the files in the folder MATLAB is currently working out of. The way to navigate files and folders within MATLAB should be familiar to any Windows, MacOS, or Linux user. The keys are to be able to know where you are and what is in the folder you are currently in.
 
@@ -143,11 +143,11 @@ For example, the "New Variable" button creates a new variable in the workspace. 
 
 Take some time to familiarize yourself with the banner and the buttons located on it (especially the buttons in the "Home" tab). In the next chapters I will refer to the buttons on the banner so it is important that you know where to look.
 
-![tryit](Media/tryit1.png)
+![](Media/tryit1.png)
 
 Take a second or two to play around with the buttons on the "Home" tab of the banner. You can't really break anything and it is good to explore them to see what happens. Also take a second to click through the other available tabs to see what buttons are available on those. A lot of what we will be learning throughout the rest of this book will rely on your ability to find the correct button on the banner so don't skip this step!
 
-![tryit](Media/tryit2.png)
+![](Media/tryit2.png)
 
 ## Quick Recap
 
@@ -206,7 +206,7 @@ As we learn new operators (specifically logical and relational) we will be updat
 3. Multiplication / Division
 4. Addition / Subtraction
 
-![tryit](Media/tryit1.png)
+![](Media/tryit1.png)
 
 For example, consider if MATLAB were to execute the following two mathematical operations:
 
@@ -220,7 +220,7 @@ In the first instance, based off the order of precedence, the result would be `1
 
 In the second instance, the result would be `20`. In this case, the operations in the parentheses will be evaluated first `(4 + 6)` and then the result of that will be multiplied by `2`.
 
-![tryit](Media/tryit2.png)
+![](Media/tryit2.png)
 
 > Question 7.3: Order of Precedence with Arithmetic
 >
@@ -308,11 +308,11 @@ Another good resource is the [MATLAB subreddit](https://www.reddit.com/r/matlab/
 
 In the end it is important to remember, the goal of this book is to workout your brain. I will trust that you will use the internet with discretion with the understanding that learning the material is more important than "getting the answer".
 
-![tryit](Media/tryit1.png)
+![](Media/tryit1.png)
 
 At this point, the best thing you can do is play around with MATLAB as a calculator. Do some arithmetic operations, assign some variables, use the semi-colon, omit the semi-colon, try typing in clear to see what happens, etc. DO NOT SKIP THE PLAYING STEP. You can read about these concepts, but if you want to learn you need to see them in practice. The best way to do that? PLAY!
 
-![tryit](Media/tryit2.png)
+![](Media/tryit2.png)
 
 ## End of Chapter Items
 

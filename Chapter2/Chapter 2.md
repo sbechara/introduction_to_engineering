@@ -1,7 +1,9 @@
 # Chapter 2: Engineers are Professionals
+
 | ![Figure 2.1](media/Figure2.1.jpg) |
 | :-------: |
 | *Figure 2.1: You will be doing lots of writing as a professional.* |
+
 One of the most important things to learn early in your journey as an engineer is that **engineers are professionals**. The word professional is synonymous to "white-collar" and implies that you are going to be using your brain instead of your body or hands to earn a living.
 
 **IMPORTANT NOTE: At this point it is important to note that society relies on "blue-collar" or non-professional workers and *I do not mean to imply any negativity towards those who have chosen this type of work for their career* **. Historically "blue-collar" has negative connotations but manual laborers play a significantly important role in our society and should be respected for their contributions. The color of your shirt doesn't matter and **everyone should be treated with respect and dignity.** Manual labor jobs are great options for a lot of people. Several of you may have worked (or known someone who has worked) in a manual labor setting and will likely have inherited experience and traits that will help you succeed as an engineering professional.
@@ -10,9 +12,8 @@ When we are talking about engineering as a career, the reality is that it is a p
 
 I acknowledge that this chapter contains a ton of "no duh" information. However, in my almost decade of experience as a higher education professional, I think taking some time to review this is necessary and will prove to be helpful.
 
+![](media/Learning_Goals.png)
 
-
-![Learning Goals](media/Learning Goals.png)
 In this chapter, you will learn several important skills that are critical to your success in a professional setting:
 
 * Why it is important to act professionally.
@@ -23,7 +24,7 @@ In this chapter, you will learn several important skills that are critical to yo
 * What is business casual and why dress is important (both as a student and as a professional).
 * How to write email and why it is important. 
 
-![Learning Goals_bottom](media/Learning Goals_bottom.png)
+![](media/LearningGoals_bottom.png)
 
 ## Why is this important?
 Why is dedicating a whole chapter to things that seem like common sense important? Because...
@@ -100,17 +101,10 @@ The goal of this chapter up until this point is to convince you that being respe
 
 Some of you are extroverted and find building a network of people easy and fun. Good for you, you will have a significant advantages when it comes to finding a job because you make friends naturally and people like you. I personally am an introvert and find networking functions unbearable and painful. Just because you don't like to actively network, does not mean that it isn't critical to getting the job you want and deserve. The good news is, there are tactics that you can learn and use to become better at networking. Take a minute to watch the video below where Mr. Duane (see what I did there?) explains his tricks to networking effectively. Make sure to take notes on what he calls "lifelines" and "landmines" when networking.
 
-
-
-
-|<video src="https://www.youtube.com/embed/NzpYBTeZdWw" /> |
 | :----: |
 | Video 2.1: [TJ Duane explores the power of a personal network and offers strategies for leveraging those key relationships](https://www.youtube.com/watch?v=NzpYBTeZdWw&feature=emb_logo). |
 
-
 > Question 2.1: Networking "Lifelines" and "Landmines"
-Show Correct Answer
-Show Responses
 In the video, Mr. Duane gives tips to be successful in making relationships. First, he advises that people establish a common
  early in the conversation. He also advises that people be centered and actively listen and pay attention to the person they are talking to. He warns people not to get
  and gives an example of a meeting he had on times square. Furthermore, Mr. Duane suggests showing your value but to make sure not to
@@ -146,9 +140,7 @@ This is what I meant when I said **that staff has all the power and it doesn't p
 
 Again, like a lot of things in this chapter, this is obviously the correct way to respond. In this case the student did not blame the adviser for the problem (they didn't even necessarily take credit for the problem either), they were respectful of the adviser's time, and humbled themselves. The adviser still might not be able to drop everything and help the student right away, but you can be sure that they are more eager and willing to help in this situation when compared to the first.
 
->Successful professionals are always modest and respectful.
-
-All of this comes back to being a professional. Successful professionals are always modest and respectful. People like people who treat them with respect and differ to their expertise.
+All of this comes back to being a professional. **Successful professionals are always modest and respectful.** People like people who treat them with respect and differ to their expertise.
 
 
 
@@ -158,8 +150,6 @@ Before we jump into this section, take a moment to answer the following question
 
 
 >Question 2.2: Judge a book by its cover.
->Show Correct Answer
->Show Responses
 >For this question, lets pretend that you have a successful engineering firm and that you need to contract an accountant to help balance your books and do your taxes. You get two offers from women who have a similar educational background, similar experience, and quote you similar prices. They are both excellent candidates in your opinion. You check their consulting company websites and they have the following pictures in their "About Me" section. Obviously pictures are not the best way to select your candidate, but the two women are equal in every other way. Which of the two would you hire? (Figure 2.5)
 > ![Figure 2.5](media/Figure2.5.jpg) 
 
@@ -186,10 +176,8 @@ Show Correct Answer
 Show Responses
 question description
 ![Figure 2.7](media/Figure2.7.jpg) 
-This image shows an illustration of a ___________________________________ .
-[Image 2.7]
 
-
+> This image shows an illustration of a ___________________________________ .
 
 Or for another example, think about the last time you looked up companies online. It is easy to get caught up in the marketing and fancy visuals of their website and to attribute those qualities to mean that the company must have high quality even though a fancy website has nothing to do with how the company actually performs. The list goes on and on, but the fact is that we judge books by their cover. If you are interested in reading more about this, [here is a nice, short little blog post discussing this from a psychological perspective.](https://www.psychologytoday.com/us/blog/happiness-in-world/201208/judging-book-its-cover)
 
@@ -207,6 +195,7 @@ Whenever you give a presentation in school, go to a job interview, go to a netwo
 
 
 ### Tips to Looking Professional
+
 This is not a comprehensive list. Instead it is a rough guide for how to look professional.
 
 * Practice regular personal hygiene. When in doubt, clean shaven is best but some professionals have adopted beards. In either case, clean and trimmed is important.
@@ -219,6 +208,7 @@ This is not a comprehensive list. Instead it is a rough guide for how to look pr
 * Ties and bow-ties are optional but should be conservative.
 
 ## Professional Emails and Communication
+
 Emails are often times annoying, but they continue to be an important tool for professional communication. There are newer communication tools that are beginning to penetrate the professional work space ([i.e. slack](https://slack.com/)) but they aren't ubiquitous and they will require you write professionally similar to the way I will outline in this section. The most difficult part about this is that social media and instant communication have different rules and norms that you are likely familiar with and may not realize are unprofessional. While there are undoubtedly benefits to instant communication in texting and the like, it has led to some bad communication habits that you will need to break to be successful in a professional setting.
 
 It is important to remember that **you can't delete a badly written email and they can be held against you**. So how do you make sure that you do not mess up your emails? Starting today, whenever you write an email to anybody that you are not friends with (and especially the University faculty and staff), remember to follow the rule outlined above, treat everyone like you would treat your personal hero or a celebrity. That means being coherent, precise with your language, proofreading your email to ensure there are no typos, and to always be respectful. Below are a few bullet points diving into a little more detail on what a professional email looks like.
@@ -228,29 +218,18 @@ It is important to remember that **you can't delete a badly written email and th
 * Have a professional email address. Limit it to initials or full spellings of your name and resort to numbers only if you have to. For example, if you have a common name (e.g. John Jeremy Smith) you can try "john.j.smith" or "j.j.smith" or "jj.smith" etc.
 * Proofread your emails before you send them. It is important to remember that sending someone an email is the same thing as asking them to spend time on you. The recipient of the email will have to take part of their day to read and assess your email. That means that you can show them respect by making sure the email is well written and free of typographical errors.
 * Be sure to use the most formal possible title to address whomever you are writing, regardless of their standing, rank, or position. It is ok to refer to a close co-worker or friend using a first name, but unless you are explicitly told not to, use a formal title. For example, you should always start your email to your professors with either "Dear Professor Bechara" or "Dear Dr. Bechara" unless you are directed otherwise.  If you are unsure about the educational attainment or professional title of the person you are emailing, use Mr. or Ms. as appropriate.
-* Complete all of your emails with a professional sign off. That means that after you complete the body of text, add a space, include a sign off (sincerely, respectfully, etc), add another space, and then complete with your name. It looks like this:
-
-*last line of text in the body of the email.*
-
-*Sincerely,*
-
-*Student McStudentson*
+* Complete all of your emails with a professional sign off. That means that after you complete the body of text, add a space, include a sign off (sincerely, respectfully, etc), add another space, and then complete with your name.
 * Follow all of the previous advice in this chapter. That means being respectful, humble, etc.
 
 >Question 2.4: An Email
-Show Correct Answer
-Show Responses
 To give an obvious example, lets consider a hypothetical email from a student to a professor. In this case we will consider that the professor actually DID make a mistake (it happens, we are human) and they typed in a grade incorrectly. So this is an instance where the student is in the right and needs to correct the professor. The email is:
 ​[i]Hey,
 You messe d up my grade on quiz for. I got a 87 but you put 78 in the gradbeook. Be more carfeul next time.
 Student McNotRespeftulson[/i]
 Which of the following mistakes did this student make? Select all that apply
-A
-Lack of humility and unprofessional tone.
-B
-Student did not proofread.
-C
-A professional signoff was not included.
+A) Lack of humility and unprofessional tone.
+B) Student did not proofread.
+C) A professional signoff was not included.
 
 ## Ethics - We Still Have Work to Do
 There is one last, uncomfortable issue to address when it comes to professionalism and the workplace. It is important to address that despite significant progress towards eliminating racial and gender discrimination, they are real and persistent in our society. It is unfortunate and frankly embarrassing to admit, but in the United States, white men currently have significant advantages over racial minorities and women. That does not mean that racial minorities or women should give up! If you are black, Hispanic, or a women, you are in the right place. Please keep up the hard work and seek the help and resources you need to be successful! We need you to be a role model for future students that look like you.
@@ -281,14 +260,13 @@ Reply Ordered by Newest Responses
 
 
 
-![Image Credits](media/Image Credits.png)
+![](media/ImageCredits.png)
+
 Figure 2.1: Image courtesy of [Max Pixel](https://www.maxpixels.net/Coffee-Business-Businesswoman-Cafe-Boss-Coffee-Cup-3753758), under license [CC0 public domain.]()
 
 Figure 2.2: Image courtesy of [Geralt](https://pixabay.com/photos/mobile-phone-smartphone-keyboard-1917737/), under license [CC0 public domain.](https://creativecommons.org/share-your-work/public-domain/cc0/)
 
 Figure 2.3 Image courtesy of [The Digital Artist,](https://pixabay.com/photos/knight-soldier-warrior-medieval-2826704/) under license [CC0 public domain.](https://creativecommons.org/share-your-work/public-domain/cc0/)
-
-Figure 2.4: No Link???
 
 Figure 2.5: Image courtesy of [Fotografie Link](https://pixabay.com/accounts/login/?next=/photos/please-do-not-download-this-2697954/) under license [CC0 public domain](https://creativecommons.org/share-your-work/public-domain/cc0/) and [Vitabello](https://pixabay.com/photos/mobile-phone-smartphone-keyboard-1917737/) under license [CC0 public domain](https://creativecommons.org/share-your-work/public-domain/cc0/)
 

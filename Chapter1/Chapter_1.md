@@ -15,6 +15,7 @@ These are valid questions for the starting engineering student and the answers a
 Before we get any further, take a minute to write out a short description of what **YOU** think an engineer is and what they do:
 
 >Discussion 1.1: What is an engineer?
+> Before we jump into this book, take a minute to reflect. After all, you chose this major for some reason. What do you think an engineer does? Why did you choose this major? Your answer doesn't need to be a page long, just write a few sentences to reflect.
 
 ## Learning Goals
 
@@ -48,6 +49,7 @@ Consider, explaining to someone 100 years ago the powers that engineers have giv
 Now, continuing our imagination, someone comes from the future and tells you some of the things engineers have created. Engineers have made it so that a business man can travel to New York from London in a matter of hours! Engineers have created robotic prosthetics that can be controlled from a the mind of an amputee! Horatio Winterberry from 1918 would  have thought you are crazy.
 
 > Discussion 1.2: Time traveler
+> For this discussion, we are going to continue role playing as if we were from 1918. Consider being transported to the year 2018 for a year, long enough to learn about current technology. After a year you are transported back to 1918! Draft a short letter to your mother explaining a current technology to a person in 1918. To complete the old-timey feel, you can also hand-write your response and upload it instead!
 
 Engineers are in the business of building things that give individual people and humanity as a whole super powers. Bio-engineers have made crops that can sit super close together so we can grow more food. Agricultural engineers improved agriculture. The list goes on.
 
@@ -71,20 +73,23 @@ Note: *There are many more specialties than presented in this section.* This lis
 The US Bureau of Labor Statistics (BLS) has excellent information on these careers. They describe what they do, job outlook, pay, area information, and more. You can find a list of all the tracked engineering careers on the [BLS website here](https://www.bls.gov/ooh/architecture-and-engineering/). In addition to those careers, you should pursue the BLS site and look at other careers and options. You might be surprised what is growing fastest!
 
 > Question 1.1: BLS Stats on Engineering
+> Your task for this problem is to sort the engineering careers by "Job Outlook, 2016-2026" in descending order (High to Low). "Job Outlook, 2016-2026" (Links to an external site.) represents a BLS estimation of how fast the engineering careers will grow in the next decade. Keep in mind the careers we are looking at are NOT tech jobs!
 
 Based off of the following activity you may think to yourself "Ah, I should switch my major to the career growing the fastest!" Not so fast. Part of being a good engineer is learning how to analyze and interpret information. For example: consider that Biomedical Engineering is projected to grow much more quickly than Computer Hardware Engineering (7% vs 5% respectively) then answer the following question.
 
 > Question 1.2: Another look at those statistics...
+> Look at the BLS projections for Biomedical Engineering vs Computer Hardware Engineering. Based off the projections, and even though Biomedical Engineering is growing faster, how many more Computer Hardware Engineers will be employed as compared to Biomedical Engineers in the year 2026?
 
 ## Stop and Think
 
 Finally, spend some time perusing the BLS page for your chosen major or field you would like to go into. Click around on all the tabs. Looks at where they are employed, what they do, how much they are paid, etc. Then take some time to reflect.
 
 > Discussion 1.3: What is your major?
+> What engineering major are you currently enrolled in? What does the BLS say they do? What type of thing do they make? Are you interested in making that thing? Make sure to write in your own words, plagiarism is not OK! If you are a double major, you can either pick one, or pick both to describe here.
 
 ## Don't Do It for the Money (or for your parents, or for prestige, etc)
 
-Engineering is hard and there are right and wrong reasons to pursue it as a major. Several students pursue engineering because they heard that engineers make a lot of money. For example, the BLS says that the median pay for Chemical Engineers is $102,160! This is crazy seeing as how the median salary for employed workers in the US is currently $37,690. Before we continue, lets tell a little story...
+Engineering is hard and there are right and wrong reasons to pursue it as a major. Several students pursue engineering because they heard that engineers make a lot of money. For example, the BLS says that the median pay for Chemical Engineers is 102,160 USD. This is crazy seeing as how the median salary for employed workers in the US is currently 37,690 USD. Before we continue, lets tell a little story...
 
 ## Case Study
 
@@ -107,6 +112,13 @@ If you signed up for an engineering major because you think engineers make a lot
 There are lots of college majors and it can be difficult to pick a potentially life long career when you are a freshman in college. I get it. But take some time to reflect.
 
 > Discussion 1.4: Do you have what it takes?
+> Use these questions to reflect on: 
+> What are your strengths?
+> What are your weaknesses?
+> Do you have good time management skills?
+> Are you ok with studying for long hours and working on hard problems without easy solutions?
+> Use this self reflection to make sure that you are in the right place. There are no right or wrong answers to these questions. They are simply for you to start having a conversation with your self about what is right for you.
+
 
 ## Non Cognitive Skills For Success
 
@@ -154,6 +166,9 @@ A better ethical question would be: "A cashier gives you too much change for a p
 Real life ethical dilemmas do not have clear cut solutions or consequences. Keep that in mind throughout the semester as we discuss these topics. For your first discussion this week, lets consider a name we all know, Nobel. It is most likely that you associate the name "Nobel" with prizes and science and smart stuff! That is just what Alfred Nobel was going for. He was almost known for something quite different...
 
 > Ethics: Nobel's Legacy
+> Most people recognize the name Nobel and associate it with the Nobel Prize. The Nobel Prizes are arguably the most prestigious and famous scientific, literary, and social achievement awards in human history. What most people do not realize is that it was named after Alfred Nobel, a Swedish engineer credited with inventing dynamite. Nobel had an interesting opportunity to read his own obituary (it was published on accident) which was scathing and condemned him for profiting off of the sale of weapons. Realizing that his legacy was one of death and destruction, Alfred bequeathed his fortune to create the Nobel Prizes.
+> In the future you may have the opportunity to design and create something that will be used in a way you didn't intend. Let's pretend that you create a software algorithm that eliminates the jobs of 100,000 people. Your company is pleased and you get a raise! After all, you have increased profits by a huge margin. For this weeks online discussion post, write your own obituary. What do you think it will say? Will the world look kindly on the innovator that gave them the algorithm that increased productivity and profits? Will it lament the loss of jobs and curse you as a job killer? Read some NY Times obituaries (Links to an external site.) to get a feel for how they are written before you write your own.
+
 
 ## Mindset: Engineering as a language, not as a puzzle
 

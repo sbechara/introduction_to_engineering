@@ -7,18 +7,18 @@ There are over 2.38 billion active Facebook users every month. Somehow, Facebook
 
 Assuming an even distribution of Facebook users means that there are over 6,520,547 birthdays everyday!
 
-\[\frac{2,380,000,000 users}{365 days/year}={6,520,547.95 birthdays/day}\]
+\\[ \frac{2,380,000,000 \; users}{365 \; days/year}={6,520,547.95 \; birthdays \, / \, day} \\]
 
 
 For the sake of argument let's say that Facebook messages everyone saying "Happy Birthday! I just wanted to tell you Happy Birthday because I am a corporation that relies on you thinking of me as a human being!" That is 26 words.
 
 The world record for typing speed is 216 words per minute. It would take the fastest person in the world 0.12 minutes or 7.22 seconds to type that message. Not bad!
 
-\[\frac{26 words/message}{216 words/minute}=0.12 minutes/message * (60sec/min)=7.22sec\]
+\\[ \frac{26 \; words/message}{216 \; words/minute}=0.12 \; minutes/message * (60 \;sec/min)= 7.22 \;sec \\]
 
 So if Facebook hired the *fastest typist in the world*, and locked them in a room and had them type that message to everyone in the world it would take them 544 days to write a short message to every person who had a birthday everyday.
 
-\[{7.22 sec/message} * {6,520,547 messages}={47,078,349 seconds}*{(1 hour/ 3600 seconds)} = {13,077 hours} * {(1 day/24 hours)} = 544 days\]
+\\[ {7.22 \; sec/message} * {6,520,547 \; messages}={47,078,349 \; seconds}*{(1 \; hour/ 3600 \; seconds)} = {13,077 \; hours} * {(1 \; day/24 \; hours)} = 544 \; days \\]
 
 Clearly, this isn't how Facebook does it. Not only is it extremely tedious, it is impossible. What they probably do, is have a single automated message and then loop through their database and send everybody that message who is having a birthday.
 
@@ -30,7 +30,7 @@ Remember our mantra and guiding process for writing complex programs is: **think
 |:----:|
 |Figure 14.2: Our mantra. Breathe it in. LIVE it.|
 
-## Learning Goals
+![](Media/learninggoals1.png)
 
 In this chapter we will learn how to program loops in MATLAB. That means learning:
 
@@ -38,36 +38,38 @@ In this chapter we will learn how to program loops in MATLAB. That means learnin
 - How to represent a `for` loop in a flowchart.
 - The only case when it is appropriate to use a `while` loop and why it is dangerous.
 
+![](Media/learninggoals2.png)
+
 ## Maclaurin Expansion of sin(x) - A Tedious Example
 
 Let's start this discussion by looking at a real world example (this one comes from the world of numerical methods, a crucial mechanical engineering course you will soon take!). We will be using this one particular example for a considerable percentage of this chapter.
 
-If you are unfamiliar with [maclaurin expansion (it is a special form of a taylor series expansion)](https://mathworld.wolfram.com/MaclaurinSeries.html). that is OK! For now you should just understand that **it is a way to approximate a function as a polynomial with an infinite number of terms.** [Khan academy has a great explanation if you would like to understand more (or if you need a quick refresher on infinite sums).](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/bc-10-11/v/maclaurin-and-taylor-series-intuition) If you are shaky on what this paragraph is saying, be sure to take a minute to check out those links and get up to speed.
+If you are unfamiliar with [maclaurin expansion (it is a special form of a taylor series expansion)](https://mathworld.wolfram.com/MaclaurinSeries.html) that is OK! For now you should just understand that **it is a way to approximate a function as a polynomial with an infinite number of terms.** [Khan academy has a great explanation if you would like to understand more (or if you need a quick refresher on infinite sums).](https://www.khanacademy.org/math/ap-calculus-bc/bc-series-new/bc-10-11/v/maclaurin-and-taylor-series-intuition) If you are shaky on what this paragraph is saying, be sure to take a minute to check out those links and get up to speed.
 
 For our purposes we will just understand that the following is true:
 
-\[sin(x)=\sum_{k=0}^{\infty}\frac{-1^{k}x^{2k+1}}{(2k+1)!}=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}+\frac{x^{7}}{7!}+...\]
+\\[ sin(x)=\sum_{k=0}^{\infty}\frac{-1^{k}x^{2k+1}}{(2k+1)!}=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}+\frac{x^{7}}{7!}+... \\]
 
-Recall, this is saying that we can represent \(sin(x)\) as an infinite polynomial and it will equal \(sin(x)\) exactly as long as we have an \(\infty\) number of terms.
+Recall, this is saying that we can represent \\( sin(x) \\) as an infinite polynomial and it will equal \\( sin(x) \\) exactly as long as we have an \\( \infty \\) number of terms.
 
-Let's consider the case where we need to approximate \(sin(x)\) with MATLAB and we decide to use the Maclaurin expansion to do so. Clearly, we can't do an \(\infty\) number of terms, that would take an \(\infty\) amount of time! Instead, let's truncate the expansion to 3 terms and see if it is good enough.
+Let's consider the case where we need to approximate \\( sin(x) \\) with MATLAB and we decide to use the Maclaurin expansion to do so. Clearly, we can't do an \\( \infty \\) number of terms, that would take an \\( \infty \\) amount of time! Instead, let's truncate the expansion to 3 terms and see if it is good enough.
 
-  \[sin(x)\approx\sum_{k=0}^{k=2}\frac{-1^{k}x^{2k+1}}{(2k+1)!}=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}\]
+\\[ sin(x)\approx\sum_{k=0}^{k=2}\frac{-1^{k}x^{2k+1}}{(2k+1)!}=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!} \\]
 
 We can now use this approximation to estimate something like \(sin(2.618)\). Note, the angle in this case, \(2.618\), is in radians.
 
 Before we move on...
 
 >Question 14.1: Reference check
-In order to check our approximation of \(sin(2.618)\) you first need to calculate the analytical value (i.e. true value) of \(sin(2.618)\). What is the \(sin(2.618)\) equal to?
+In order to check our approximation of \\( sin(2.618) \\) you first need to calculate the analytical value (i.e. true value) of \\( sin(2.618) \\). What is the \\( sin(2.618) \\) equal to?
 
 Now we know the *correct answer*. We are ready to calculate our *approximation* using a subset of the maclaurin expansion.
 
-\[sin(2.618)\approx2.618-\frac{2.618^{3}}{3!}+\frac{2.618^{5}}{5!}=0.6523\]
+\\[ sin(2.618)\approx2.618-\frac{2.618^{3}}{3!}+\frac{2.618^{5}}{5!}=0.6523 \\]
 
 Ok, that isn't a terrible approximation but it isn't very good. What happens if we increase up to seven terms?
 
-  \[sin(x)\approx\sum_{k=0}^{k=7}\frac{-1^{k}x^{2k+1}}{(2k+1)!}=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\frac{x^9}{9!}-\frac{x^11}{11!}+\frac{x^13}{13!}\]
+\\[ sin(x)\approx\sum_{k=0}^{k=7}\frac{-1^{k}x^{2k+1}}{(2k+1)!}=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\frac{x^9}{9!}-\frac{x^{11}}{11!}+\frac{x^{13}}{13!} \\]
 
 Well, we can be sure that it will be more accurate but it is clear that the more terms that we add, the more tedious this process becomes. Imagine increasing our estimate to 20 terms! Whenever a process is tedious and repetitive, it is a perfect candidate to have a computer do it. In order for a computer to do it though, **we need to transfer this process into an algorithm that can solve this problem for an arbitrary \(n\) number of terms.**
 
@@ -213,17 +215,20 @@ Consider the 3rd pass through this loop. What is the value stored in man_bear_pi
 ### Finishing the Maclaurin Example
 Hopefully at this point you can at least understand how a `for-end` loop is supposed to work and what it might be used for. You should also start to understand what the 3 key concepts you should learn about these loops are. It is OK if you are a little shaky in your knowledge, but you should at least know what you need to learn.
 
-#### Try It!
+![](Media/tryit1.png)
+
 Returning to our Maclaurin series example, we are *now* ready for the **code** phase. Based off what you have learned about `for` loops, can you write the MATLAB code that accomplishes our programming goal. To remind you, the goal was:
 
-**Create a MATLAB script that can return the value of the Maclaurin series expansion of \(sin(x)\) for angle \(x\) in radians, for an arbitrary \(n\) number of terms.**
+**Create a MATLAB script that can return the value of the Maclaurin series expansion of \\( sin(x) \\) for angle \\( x \\) in radians, for an arbitrary \\( n \\) number of terms.**
 
-- Recall the Maclaurin series expansion of \(sin(x)\) is: \[sin(x)=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}+\frac{x^{7}}{7!}+...\]
-- Remember that although only 4 terms are shown in the bullet point above, that this is an \(\infty\) sum
-- When we say an arbitrary \(n\) number of terms, your script should allow the user to change a variable `n` to change how many terms are used in the estimation.
-- For example, if the user specifies `n = 3`, and wants to estimate \(sin(1.15)\) by specifying `x = 1.15`, the program should calculate:
+- Recall the Maclaurin series expansion of \\( sin(x) \\) is: \\[ sin(x)=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}+\frac{x^{7}}{7!}+... \\]
+- Remember that although only 4 terms are shown in the bullet point above, that this is an \\( \infty \\) sum
+- When we say an arbitrary \\( n \\) number of terms, your script should allow the user to change a variable `n` to change how many terms are used in the estimation.
+- For example, if the user specifies `n = 3`, and wants to estimate \\( sin(1.15) \\) by specifying `x = 1.15`, the program should calculate:
   (this is actually a pretty good estimate by the way)
 Give it your best shot! Try and see if you can come up with this code on your own! I believe in you!
+
+![](Media/tryit2.png)
 
 |![Fig14.7](Media/Ant.png)|
 |:----:|
@@ -244,9 +249,9 @@ This chapter would not be complete without a mention of `while-end` loops. They 
 |:----:|
 |Figure 9: Warning: while loops are DANGEROUS|
 
-The reason I am warning about while-end loops before discussing them is that they are the only thing that we will learn in this book that can create \(\infty\) loops.
+The reason I am warning about while-end loops before discussing them is that they are the only thing that we will learn in this book that can create \\( \infty \\) loops.
 
-What is an \(\infty\) loop? Well why don't you go ahead and try one and see!
+What is an \\( \infty \\) loop? Well why don't you go ahead and try one and see!
 
 ### How to Kill (and Create) an Infinite Loop
 Before I show you how to create an infinite loop, I will first tell you how to kill one.
@@ -293,18 +298,17 @@ The beauty of `while` loops is that you can ensure that your code repeats itself
 
 ### Maclaurin Series Example - `while` Loop Edition
 
-To see an instance where a `while` loop is necessary, let's consider the case of the Maclaurin series expansion of \(sin(x)\) one last time. In this case, lets flip the question a little bit. Lets say that the new question is, **you want to know how many terms of the Maclaurin series are necessary to get an estimation of sin(x) that is 99% accurate.**
+To see an instance where a `while` loop is necessary, let's consider the case of the Maclaurin series expansion of \\( sin(x) \\) one last time. In this case, lets flip the question a little bit. Lets say that the new question is, **you want to know how many terms of the Maclaurin series are necessary to get an estimation of \\( sin(x) \\) that is 99% accurate.**
 
-We know from the Maclaurin series that if we keep adding terms, the estimation will get more and more accurate. We also know that we need an infinite number of terms to make the answer infinitely accurate. But how many terms are necessary to get our estimation of \(sin(x)\) 99% accurate? It will depend on the \(x\) that the user specifies but it actually might not take as many terms as you might think it does.
+We know from the Maclaurin series that if we keep adding terms, the estimation will get more and more accurate. We also know that we need an infinite number of terms to make the answer infinitely accurate. But how many terms are necessary to get our estimation of \\( sin(x) \\) to be 99% accurate? It will depend on the \\( x \\) that the user specifies but it actually might not take as many terms as you might think it does.
 
 Here are a few tips to get you started:
 
-- It is actually easier to use the error rather than accuracy. The formula for percent error is   So 99% accurate would be less than 1% error.
-- Use the built-in MATLAB function `sin()` to get a "true" value for \(sin(x)\). Even though it isn't 100% accurate, it is close enough for our purposes.
+- It is actually easier to use the error rather than accuracy. The formula for percent error is \\( (true \; - approximate)/true*100 \\) So 99% accurate would be less than 1% error.
+- Use the built-in MATLAB function `sin()` to get a "true" value for \\( sin(x) \\). Even though it isn't 100% accurate, it is close enough for our purposes.
 - Since you do not know how many terms it will take, you will need to use a `while` loop.
 
-
-#### Try It!
+![](Media/tryit1.png)
 I am not going to lie, I think that this is a pretty difficult problem. But we are here to workout our brains and difficult problems are our opportunity to show off our strength!
 
 Try to complete the entire process: **think, sketch, code, test,** and **repeat**.
@@ -317,8 +321,9 @@ Try to complete the entire process: **think, sketch, code, test,** and **repeat*
 I know this is difficult! You can do it!
 
 > Discussion 14.1: What is your flowchart?
-
 >For this discussion, upload a picture of your flowchart or write out your pseudocode that you came up with to solve the Maclaurin series "number of terms" problem described directly above. The coding part might be difficult but I have faith in your ability to come up with the algorithm! Take your time and think through it!
+
+![](Media/tryit2.png)
 
 The code solution to the problem is shown below in figure 14.13. Make sure that you give it an honest try before looking at the solution though! Do not skip your brain workouts, you will only cheat yourself.
 
@@ -342,7 +347,7 @@ Remember, the final grades are calculated as follows:
 
 |![Table1](Media/Grade_Table.png)|
 |:----:|
-|Table 1: How letter grades are calculated from numeric grades|
+|Table 14.1: How letter grades are calculated from numeric grades|
 
 Can you create a MATLAB script that:
 

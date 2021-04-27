@@ -6,7 +6,7 @@
 
 Although it seems basic, one of the first steps of becoming a successful engineer is having an **intuitive** understanding of units and dimensions. Intuitive means that when you see 4 inches or 4 millimeters you can "see" the difference between those two and understand how they are different. Intuitive means that when someone says that they are 6 meters tall, you raise your eyebrows and likely reply "I don't think meters means what you think it means". Unfortunately, it takes practice and time to have an intuitive understanding about anything (that is one of the reasons why we expect engineers to spend 4 years in school!). Therefore, the goal of this chapter is not that you will have an intuitive understanding by the time that you are finished. It is important to understand that the learning process does not end at the completion of each chapter but instead is a life long process. The goal is that by the end of the chapter you will know how to appropriately look things up and that you understand how to be careful when converting units.
 
-|![](Media/LearningGoals.png)|
+![](Media/LearningGoals.png)
 
 In this chapter we will learn a ton! We are going to learn the difference between units and dimensions and how you will be expected to manipulate them as an engineer. We will explore the following:
 
@@ -17,7 +17,7 @@ In this chapter we will learn a ton! We are going to learn the difference betwee
 - Dimensional homogeneity (fancy way of saying dimensional consistency) and analysis
 - How to intuit the difference between precision and accuracy
 
-|![](Media/LearningGoals_bottom.png)|
+![](Media/LearningGoals_bottom.png)
 
 ## Motivation - The Gimli Glider
 

@@ -27,9 +27,11 @@ As mentioned above, a MATLAB function is very similar to a mathematical function
 - `mean()`
 - `max()`
 
-### Try It!
+![](Media/tryit1.png)
 
 It is worth taking a moment and reading the help text for the 3 functions listed above. To do so, open MATLAB and type in `>> help function_name` into the command window. Obviously you should replace `function_name` with the function of interest (e.g. `>> help max`). You do not need to memorize anything but go ahead and read through the help texts to get an idea for how they work.
+
+![](Media/tryit2.png)
 
 ### `sin()` Function
 The `sin()` function is perhaps the easiest to understand because you are likely already familiar with trigonometric functions. The `sin()` function takes an **input**, angle in radians, and returns an **output**, the ratio of the length of the side of a right triangle that is opposite that angle to the length of the longest side of the triangle.
@@ -46,7 +48,7 @@ Notice how the **output** of the `sin()` function is assigned to the `ratio` var
 
 Now the real question is, how does MATLAB calculate that ratio? Well MATLAB engineers have created thousands of numerical algorithms stored in **functions** that they supply with the product. This brings us to the central idea behind functions: functions exist to make it easy to run snippets of code with different inputs.
 
-> Key Concept: Functions exist to make it easy to run snippets of code with different inputs.
+**Key Concept: Functions exist to make it easy to run snippets of code with different inputs.**
 
 An example would be the sine trigonometric function. Most engineers and scientists do not want to have to program the algorithm that calculates sine of an angle every time they need to calculate sine. That is too much work! So you can create a function that calculates the sine of an angle, call is something that makes sense (in this case `sin()`), and allow it to work for any input!
 
@@ -153,7 +155,7 @@ This is important to remember when you save a function and are trying to run it.
 
 Before we start creating functions remember our mantra! **Think, sketch, code, test, repeat!** This will help us organize our thoughts and make sure that we are making the function correctly.
 
-Imagine that you are working on a program that requires you to calculate the volume of a sphere several times. Recall: \({volume of sphere}={4}/{3}{pi}{r}^{3}\) so you are constantly writing that formula over and over again.
+Imagine that you are working on a program that requires you to calculate the volume of a sphere several times. Recall: \\( {volume \; of \; sphere}={4}/{3}{\pi}{r}^{3} \\) so you are constantly writing that formula over and over again.
 
 ```MATLAB
 >> volume1 = 4/3*pi*2^3;
