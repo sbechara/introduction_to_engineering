@@ -8,9 +8,9 @@ At this point we have learned how to store and manipulate data inside of arrays.
 
 Up until this point, the power of MATLAB has been below the surface. If you recall from Chapter 8, MATLAB stands for **MAT**rix **LAB**oratory. In this chapter, we will learn functions and commands that make use of the most powerful MATLAB features.
 
-To keep track of your work, it is a good idea to work on all of the examples presented in this chapter as part of a new script. I suggest creating and saving a new script called ```chapter8_examples.m``` to keep track of your work. Make little comments so you can remember what and why you are doing things.
+To keep track of your work, it is a good idea to work on all of the examples presented in this chapter as part of a new script. I suggest creating and saving a new script called ```chapter9_examples.m``` to keep track of your work. Make little comments so you can remember what and why you are doing things.
 
-|![](Media/LearningGoals.png)|
+![](Media/LearningGoals.png)
 
 As suggested, we will spend the majority of this chapter learning about how to manipulate arrays to perform complex mathematical operations quickly. To do so we will learn:
 
@@ -27,7 +27,7 @@ As suggested, we will spend the majority of this chapter learning about how to m
 	- ```median()```
 	- ```std()```
 
-|![](Media/LearningGoalsbottom.png)|
+![](Media/LearningGoalsbottom.png)
 
 ## Quick Note - Warning on Linear Algebra
 
@@ -62,7 +62,7 @@ Now if we subtract A from B we get:
             
 We simply subtract the corresponding elements. Addition works the exact same way. It also works the exact same way with vectors (Recall, vectors are 1 dimensional arrays). The main thing to remember is that the arrays \\( [A] \\) and \\( [B] \\) must be the exact same size!
 
-|![](Media/TryIt.png)|
+![](Media/TryIt.png)
 
 To see it in action, open up MATLAB and define the following four arrays (if you do not remember how to create these arrays in MATLAB, see Chapter 8). You should notice that I am not showing you the exact commands to enter these variables into the MATLAB workspace. From now on, I will assume you know how to create vectors and matrices.
 
@@ -86,7 +86,7 @@ To see it in action, open up MATLAB and define the following four arrays (if you
     
 *Hint: the first matrix can be input by typing* ```>> mat1 = [4 12; -5 2.6];``` *but you need to figure out the rest on your own!*
 
-|![](Media/LearningGoalsbottom.png)|
+![](Media/LearningGoalsbottom.png)
 
 |![fig9.2](Media/Figure9.2.png)|
 |:---:|
@@ -144,11 +144,11 @@ If we want to perform element-by-element multiplication (or division, or exponen
             
 So if we multiply a 2x2 matrix \\( {[A]} \\) with a 2x2 matrix \\( {[B]} \\), the output is the multiplication of the corresponding elements. Hopefully you still have the 4 variables still stored in your Workspace.
 
-|![](Media/StopAndThink.png)|
+![](Media/StopAndThink.png)
 
 Before continuing, THINK about multiplying \\( {mat1} * {mat2} \\) and storing in a new matrix called ```huh```. What should the value of ```huh(1,1)``` be? Do not skip your brain workout! It only takes one second and will make the following example much more compelling.
 
-|![](Media/StopAndThinkBottom.png)|
+![](Media/StopAndThinkBottom.png)
 
 Ok, now that you have a prediction for what happens, go ahead and type in ``` >> huh = mat1 * mat2``` into the command window. Your new variable ```huh``` should look identical to figure 9.4 below.
 
@@ -190,11 +190,11 @@ How can we perform the preceding question in MATLAB? We COULD type out the corre
 
 ... etc etc... but please **DO NOT DO THIS**!
 
-|![](Media/StopAndThink.png)|
+![](Media/StopAndThink.png)
 
 The above "solution" would be wasting the power of MATLAB and would be extremely tedious. Instead, **think** about what we have learned and how it relates to this problem. Do not continue reading until you have some ideas about how to proceed.
 
-|![](Media/StopAndThinkBottom.png)|
+![](Media/StopAndThinkBottom.png)
 
 I hope you didn't skip your brain workout. It is important! I hope that you have some inclination that we can use arrays and array mathematics to solve this problem quickly.
 
@@ -213,7 +213,7 @@ When you are done, the section in your script file should look similar to figure
 > Question 9.3: Now here is the beauty of MATLAB!
 > For this question, lets consider the preceding example, but this time, redefine x to be from x = 1 to x=999 equally spaced by 1. To accomplish this, you should only have to modify two numbers in your script. After running it, you have now created a fun array with 1000 entries! Using this and what you know about MATLAB what is the function value evaluated at x = 257?
 
-That is the beauty of MATLAB! You can change one or two numbers, and re-run your script without having to do much work. If you struggled with Question X above, it is ok! If you are struggling than you are learning! But you also need to figure out a plan to make sure that you learn this material. It is critical to being a successful MATLAB programmer.
+That is the beauty of MATLAB! You can change one or two numbers, and re-run your script without having to do much work. If you struggled with the question above, it is ok! If you are struggling than you are learning! But you also need to figure out a plan to make sure that you learn this material. It is critical to being a successful MATLAB programmer.
 
 ## MATLAB Functions for Working With Arrays
 
