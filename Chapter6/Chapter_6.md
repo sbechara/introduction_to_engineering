@@ -78,7 +78,6 @@ We know that these are springs and that they should obey Hooke's Law so we can u
 #### How to add a Trendline
 The process for adding a trendline is identical regardless of the mathematical model being used. Lets see how to add a trendline to our spring data and start with the spring 1 data. The process is also very similar to adding a legend or other chart element so this should be easy for you.
 
-also very similar to adding a legend or other chart element so this should be easy for you.also very similar to adding a legend or other chart element so this should be easy for you.
 
 **Step 0)** Think! What are we mathematically modelling? What type of trendline will we need to use?
 
@@ -130,7 +129,7 @@ Power models are swoopy lines and take the form of the equation:
 There are a few interesting things to note about power models:
 
 - When \\( {m} \\) is positive, the power model has a value of \\( {0} \\) at \\( {x}={0} \\)
-- When \\( {m} \\) is negative, the power model has a value of \infty a \\( {x}={0} \\)
+- When \\( {m} \\) is negative, the power model has a value of \\(\infty \\) at \\( {x}={0} \\)
 
 #### Example of a Power Model - Volume of a Sphere
 
@@ -182,7 +181,7 @@ Keep in mind that the \\( {e} \\) in this equation refers to [the mathematical c
 |:----:|
 |Figure 6.11: It is hard to breathe up there or so I am told. [But not just because of all the poop.](https://www.cnn.com/2018/08/05/health/mount-everest-biogas-project/index.html)|
 
-The "standard" pressure at sea level is 101,325 Pascals. The reason standard is in quotes is because realistically it varies with weather, temperature, etc. but that is the number scientists commonly use to calculate things. Furthermore, it is known that atmospheric pressure ul if you could provide existing plans of your decreases by about 12% for every 1000 meters that you go up. Intuitively, you can see that this is an example of exponential decay! Furthermore, with a little cleverness, we can create a mathematical model and guess what the pressure should be in Fort Collins, CO (elevation 5003 feet) and on the top of Mount Elbert, the highest peak in Colorado (elevation 14,439 ft. or 4401 meters).
+The "standard" pressure at sea level is 101,325 Pascals. The reason standard is in quotes is because realistically it varies with weather, temperature, etc. but that is the number scientists commonly use to calculate things. Furthermore, it is known that atmospheric pressure, if you could provide existing plans, decreases by about 12% for every 1000 meters that you go up. Intuitively, you can see that this is an example of exponential decay! Furthermore, with a little cleverness, we can create a mathematical model and guess what the pressure should be in Fort Collins, CO (elevation 5003 feet) and on the top of Mount Elbert, the highest peak in Colorado (elevation 14,439 ft. or 4401 meters).
 
 >Question 6.3: Unit practice
 > The elevation of Fort Collins is listed at 5003 feet. Take a minute to take out a piece of paper, look at your conversion sheet, and convert this elevation to meters. This is a good brain workout review! Don't skip it!

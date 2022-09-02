@@ -4,7 +4,7 @@
 |:----:|
 |*Figure 1.0: Engineers bestow superhuman powers.*|
 
-Typical engineering textbooks often start off be asking legitimate questions but respond by giving boring answers. The typical questions are:
+Typical engineering textbooks often start off by asking legitimate questions but respond by giving boring answers. The typical questions are:
 
 - What does it mean to be an engineer?
 - What do engineers do?
@@ -19,7 +19,7 @@ Before we get any further, take a minute to write out a short description of wha
 
 ## Learning Goals
 
-In this chapter we will learn about engineering in general. That includes learning:
+In this chapter, we will learn about engineering in general. That includes learning:
 
 - What it means to be an engineer and what engineers do.
 - What engineering careers look like and how they are projected to grow.
@@ -40,22 +40,22 @@ Currently, the fastest man in the world (for the 100m dash) tops out at approxim
 
 ### Pretend we are in 1918...
 
-Consider, explaining to someone 100 years ago the powers that engineers have given mere mortals. Go ahead, close your eyes, and pretend that you are someone from 100 years ago. You can even come up with a old-timey name for yourself if it helps (my old-timey name is Horatio Winterberry). [Go on Wikipedia and try and see what life was like in 1918](https://en.wikipedia.org/wiki/1918). That page should allow you to see a bunch of historically important events that happened over 100 years ago. Click through the Wikipedia page, do a little more background research, and get a good feel for the type of technology they had available to them.
+Consider, explaining to someone 100 years ago the powers that engineers have given mere mortals. Go ahead, close your eyes, and pretend that you are someone from 100 years ago. You can even come up with an old-timey name for yourself if it helps (my old-timey name is Horatio Winterberry). [Go on Wikipedia and try and see what life was like in 1918](https://en.wikipedia.org/wiki/1918). That page should allow you to see a bunch of historically important events that happened over 100 years ago. Click through the Wikipedia page, do a little more background research, and get a good feel for the type of technology they had available to them.
 
 |![Fig1.2](Media/Old_Timer.jpg)|
 |:----:|
 |*Figure 1.2: Horatio Winterberry in his new horseless carriage... probably*|
 
-Now, continuing our imagination, someone comes from the future and tells you some of the things engineers have created. Engineers have made it so that a business man can travel to New York from London in a matter of hours! Engineers have created robotic prosthetics that can be controlled from a the mind of an amputee! Horatio Winterberry from 1918 would  have thought you are crazy.
+Now, continuing our imagination, someone comes from the future and tells you some of the things engineers have created. Engineers have made it so that a businessman can travel to New York from London in a matter of hours! Engineers have created robotic prosthetics that can be controlled from the mind of an amputee! Horatio Winterberry from 1918 would have thought you are crazy.
 
 > Discussion 1.2: Time traveler
-> For this discussion, we are going to continue role playing as if we were from 1918. Consider being transported to the year 2018 for a year, long enough to learn about current technology. After a year you are transported back to 1918! Draft a short letter to your mother explaining a current technology to a person in 1918. To complete the old-timey feel, you can also hand-write your response and upload it instead!
+> For this discussion, we are going to continue role-playing as if we were from 1918. Consider being transported to the year 2018 for a year, long enough to learn about current technology. After a year you are transported back to 1918! Draft a short letter to your mother explaining a current technology to a person in 1918. To complete the old-timey feel, you can also hand-write your response and upload it instead!
 
-Engineers are in the business of building things that give individual people and humanity as a whole super powers. Bio-engineers have made crops that can sit super close together so we can grow more food. Agricultural engineers improved agriculture. The list goes on.
+Engineers are in the business of building things that give individual people and humanity as a whole superpowers. Bio-engineers have made crops that can sit super close together so we can grow more food. Agricultural engineers improved agriculture. The list goes on.
 
 ### Engineering Disciplines
 
-Engineers are broken into several disciplines, typically by prepending a descriptor to "Engineer" that describes a broad category of things that they make that gives humans super powers. Example: Electrical Engineers use electronics to give people super powers.
+Engineers are broken into several disciplines, typically by prepending a descriptor to "Engineer" that describes a broad category of things that they make that gives humans superpowers. Example: Electrical Engineers use electronics to give people super powers.
 
 Note: *There are many more specialties than presented in this section.* This list was decided as you can find most of these engineering majors at most large universities:
 
@@ -73,29 +73,29 @@ Note: *There are many more specialties than presented in this section.* This lis
 The US Bureau of Labor Statistics (BLS) has excellent information on these careers. They describe what they do, job outlook, pay, area information, and more. You can find a list of all the tracked engineering careers on the [BLS website here](https://www.bls.gov/ooh/architecture-and-engineering/). In addition to those careers, you should pursue the BLS site and look at other careers and options. You might be surprised what is growing fastest!
 
 > Question 1.1: BLS Stats on Engineering
-> Your task for this problem is to sort the engineering careers by "Job Outlook, 2016-2026" in descending order (High to Low). "Job Outlook, 2016-2026" (Links to an external site.) represents a BLS estimation of how fast the engineering careers will grow in the next decade. Keep in mind the careers we are looking at are NOT tech jobs!
+> Your task for this problem is to sort the engineering careers by "Job Outlook, 2016-2026" in descending order (High to Low). "Job Outlook, 2016-2026" (Links to an external site.) represents a BLS estimation of how fast engineering careers will grow in the next decade. Keep in mind the careers we are looking at are NOT tech jobs!
 
-Based off of the following activity you may think to yourself "Ah, I should switch my major to the career growing the fastest!" Not so fast. Part of being a good engineer is learning how to analyze and interpret information. For example: consider that Biomedical Engineering is projected to grow much more quickly than Computer Hardware Engineering (7% vs 5% respectively) then answer the following question.
+Based on the following activity you may think to yourself "Ah, I should switch my major to the career growing the fastest!" Not so fast. Part of being a good engineer is learning how to analyze and interpret information. For example: consider that Biomedical Engineering is projected to grow much more quickly than Computer Hardware Engineering (7% vs 5% respectively) then answer the following question.
 
 > Question 1.2: Another look at those statistics...
-> Look at the BLS projections for Biomedical Engineering vs Computer Hardware Engineering. Based off the projections, and even though Biomedical Engineering is growing faster, how many more Computer Hardware Engineers will be employed as compared to Biomedical Engineers in the year 2026?
+> Look at the BLS projections for Biomedical Engineering vs Computer Hardware Engineering. Based on the projections, and even though Biomedical Engineering is growing faster, how many more Computer Hardware Engineers will be employed as compared to Biomedical Engineers in the year 2026?
 
 ## Stop and Think
 
 Finally, spend some time perusing the BLS page for your chosen major or field you would like to go into. Click around on all the tabs. Looks at where they are employed, what they do, how much they are paid, etc. Then take some time to reflect.
 
 > Discussion 1.3: What is your major?
-> What engineering major are you currently enrolled in? What does the BLS say they do? What type of thing do they make? Are you interested in making that thing? Make sure to write in your own words, plagiarism is not OK! If you are a double major, you can either pick one, or pick both to describe here.
+> What engineering major are you currently enrolled in? What does the BLS say they do? What type of thing do they make? Are you interested in making that thing? Make sure to write in your own words, plagiarism is not OK! If you are a double major, you can either pick one or pick both to describe here.
 
 ## Don't Do It for the Money (or for your parents, or for prestige, etc)
 
-Engineering is hard and there are right and wrong reasons to pursue it as a major. Several students pursue engineering because they heard that engineers make a lot of money. For example, the BLS says that the median pay for Chemical Engineers is 102,160 USD. This is crazy seeing as how the median salary for employed workers in the US is currently 37,690 USD. Before we continue, lets tell a little story...
+Engineering is hard and there are right and wrong reasons to pursue it as a major. Several students pursue engineering because they heard that engineers make a lot of money. For example, the BLS says that the median pay for Chemical Engineers is 102,160 USD. This is crazy seeing as how the median salary for employed workers in the US is currently 37,690 USD. Before we continue, let's tell a little story...
 
 ## Case Study
 
 ### Consider the following scenario:
 
-Steve is an 18 year old about to graduate from Generic High School. Steve is very smart and exceptionally clever. He has always been interested in electronics, computers, and baseball. He built an arduino-based biometric lock for his bedroom to keep his sister out when he was only 7 years old. However, Steve has no muscular definition or hand eye coordination to speak of. Steve was the only player to strike out in his t-ball league (a record him and his dad laugh about often). As part of his high school capstone project Steve designed an "e-bat" that was able to measure the swing velocity and force imparted onto the ball for his High School Baseball team. Even though he didn't make the team, Steve was proud to see his e-bat used to enhance the performance of the players by giving them information on their swing speed, angle, etc. Steve graduates High School with a 3.9 GPA and gets a full ride scholarship offer from Colorado State University to study engineering. Steve has always been interested in baseball and hears that MLB players make a lot of money. Steve decides to skip college and instead he begins training to become an MLB baseball player.
+Steve is an 18-year-old about to graduate from Generic High School. Steve is very smart and exceptionally clever. He has always been interested in electronics, computers, and baseball. He built an Arduino-based biometric lock for his bedroom to keep his sister out when he was only 7 years old. However, Steve has no muscular definition or hand-eye coordination to speak of. Steve was the only player to strike out in his t-ball league (a record he and his dad laugh about often). As part of his high school capstone project, Steve designed an "e-bat" that was able to measure the swing velocity and force imparted onto the ball for his High School Baseball team. Even though he didn't make the team, Steve was proud to see his e-bat used to enhance the performance of the players by giving them information on their swing speed, angle, etc. Steve graduates High School with a 3.9 GPA and gets a full-ride scholarship offer from Colorado State University to study engineering. Steve has always been interested in baseball and hears that MLB players make a lot of money. Steve decides to skip college and instead he begins training to become an MLB baseball player.
 
 |![Fig1.3](Media/Baseball_Hit.jpg)|
 |:----:|
@@ -107,9 +107,9 @@ While we may be rooting for Steve (we all love an underdog story), it seems clea
 
 > *Engineering is hard and there are right and wrong reasons to pursue it as a major.*
 
-If you signed up for an engineering major because you think engineers make a lot of money (typically true but not always the case), or because your parents pushed you into it, you are going to be in for a long four years and a potentially miserable career. **If you signed up because you love learning and are interested in making things that help turn ordinary people into super heroes, you are in for a treat.** Engineering school will equip you with the tools and mindset necessary to analyze problems and design novel solutions using technical knowledge and personal ingenuity. **However, if you are uninterested in working hard, long hours on difficult problems that require advanced mathematical understanding and computational thinking, you may want to look at other degree options that might be more interesting to you.**
+If you signed up for an engineering major because you think engineers make a lot of money (typically true but not always the case), or because your parents pushed you into it, you are going to be in for a long four years and a potentially miserable career. **If you signed up because you love learning and are interested in making things that help turn ordinary people into superheroes, you are in for a treat.** Engineering school will equip you with the tools and mindset necessary to analyze problems and design novel solutions using technical knowledge and personal ingenuity. **However, if you are uninterested in working hard, long hours on difficult problems that require advanced mathematical understanding and computational thinking, you may want to look at other degree options that might be more interesting to you.**
 
-There are lots of college majors and it can be difficult to pick a potentially life long career when you are a freshman in college. I get it. But take some time to reflect.
+There are lots of college majors and it can be difficult to pick a potentially lifelong career when you are a freshman in college. I get it. But take some time to reflect.
 
 > Discussion 1.4: Do you have what it takes?
 > Use these questions to reflect on: 
@@ -117,19 +117,19 @@ There are lots of college majors and it can be difficult to pick a potentially l
 > What are your weaknesses?
 > Do you have good time management skills?
 > Are you ok with studying for long hours and working on hard problems without easy solutions?
-> Use this self reflection to make sure that you are in the right place. There are no right or wrong answers to these questions. They are simply for you to start having a conversation with your self about what is right for you.
+> Use this self-reflection to make sure that you are in the right place. There are no right or wrong answers to these questions. They are simply for you to start having a conversation with yourself about what is right for you.
 
 
-## Non Cognitive Skills For Success
+## Non-Cognitive Skills For Success
 
 The purpose of the proceeding section was not to get you to change majors! If you are interested in engineering please stick with it! In my experience, students drop out of engineering for two reasons:
 
 1. They think it is *too hard* and want to switch to an "easier" major
 2. They think they aren't *smart* enough
 
-Both of these are **not valid reasons** to change your major as long as you are interested and really want to be an engineer. Yes, engineering is difficult and requires advanced mathematics, physics, and scientific training. Is that hard? Of course it is, but if you are interested in it, than you should also find it *fun*.
+Both of these are **not valid reasons** to change your major as long as you are interested and really want to be an engineer. Yes, engineering is difficult and requires advanced mathematics, physics, and scientific training. Is that hard? Of course, it is, but if you are interested in it then you should also find it *fun*.
 
-A lot of the problems that students have with engineering comes from the way society prepares us. Lets consider another story to illustrate what I mean by this.
+A lot of the problems that students have with engineering come from the way society prepares us. Let's consider another story to illustrate what I mean by this.
 
 ## Case Study
 
@@ -137,48 +137,48 @@ Pretend you are going to a concert to see Yo Yo Ma play Bach's Cello Suite No. 1
 
 [Video 1: Yo Yo Ma - Bach Cello Suite No.1 in G Major](https://www.youtube.com/watch?v=1prweT95Mo0)
 
-Woah. He is good right? Did you listen to the whole thing? I think it is difficult to listen to that piece and not have some kind of emotion come flooding into your head. That is how good Yo Yo Ma is.
+Woah. He is good, right? Did you listen to the whole thing? I think it is difficult to listen to that piece and not have some kind of emotion come flooding into your head. That is how good Yo Yo Ma is.
 
-Now comes the million dollar question. **Could you ever be that good?** *This is the question that society has prepared us to answer incorrectly.* Society tells us no. Society tells us that Yo Yo Ma is super talented and that you could never do that because you aren't as talented as he is. It is easy to think that, well, Yo Yo Ma is super talented and I am not so I guess I can never play cello as good as he can so I won't start.
+Now comes the million-dollar question. **Could you ever be that good?** *This is the question that society has prepared us to answer incorrectly.* Society tells us no. Society tells us that Yo Yo Ma is super talented and that you could never do that because you aren't as talented as he is. It is easy to think that, well, Yo Yo Ma is super talented and I am not so I guess I can never play cello as well as he can so I won't start.
 
 **I am trying to tell you that you can be that good, you are just too lazy to put in the effort.** That is OK, not everyone needs to be an amazing cellist. But you *should* be amazing at *something* which means that you are going to have to get to working hard and failing! What you don't see when you see someone do something amazing on YouTube is the countless hours of them failing, getting up, and trying it again. You don't see YouTube videos of Yo Yo Ma practicing the piece for hundreds, maybe thousands of hours before he is able to play it that well. It doesn't matter what amazing thing you are seeing, the story is the same. It is extremely rare for someone to just stumble upon wealth and success.
 
-Do not delude yourself into thinking that you aren't smart enough to be an engineer, you are! **The point is that engineering is hard but you can do it, you are just going to need to improve some of you non-cognitive character skills.**
+Do not delude yourself into thinking that you aren't smart enough to be an engineer, you are! **The point is that engineering is hard but you can do it, you are just going to need to improve some of your non-cognitive character skills.**
 
 These are the non-cognitive character skills that all successful people have (in order of importance):
 
-1. **Grit** also known as *passionate* persistence. This is the main secret to success.
+1. **Grit** is also known as *passionate* persistence. This is the main secret to success.
 2. **Conscientiousness**. This will help with your professional life and help cultivate relationships that will vault your career.
-3. **Planning**. How well you can create goals and execute plans to complete those goals.
+3. **Planning**. This is how well you can create goals and execute plans to complete those goals.
 
 You should also notice that these non-cognitive skills are also skills that are useful for physical fitness. The workout analogy holds true!
 
 ## Ethics is Hard
-In my opinion, engineering ethics deserves the devotion of an entire course to the topic. Unfortunately, for most engineers, their ethical training is limited to a couple of slides to meet some ABET accreditation requirement and it is not emphasized throughout the curriculum.
+In my opinion, engineering ethics deserves the devotion of an entire course to the topic. Unfortunately, for most engineers, their ethical training is limited to a couple of slides to meet some ABET accreditation requirements and it is not emphasized throughout the curriculum.
 
-In this book I will try and change that. Throughout the book you will encounter ethical quandaries that are intended to provoke discussion. One thing that you should always keep in mind, *ethics is hard and there are not always right answers*.
+In this book, I will try and change that. Throughout the book, you will encounter ethical quandaries that are intended to provoke discussion. One thing that you should always keep in mind, *ethics is hard and there are not always right answers*.
 
 ### Example of Why Ethics is Hard
-A lot of engineering ethics ask silly questions. Here is an example that I have found in a current edition textbook, that I find particularly silly: "A cashier gives you too much change for a purchase. Do you correct the cashier?". **OF COURSE YOU DO!** This question lacks nuance or depth that arise in real life ethical dilemmas.
+A lot of engineering ethics ask silly questions. Here is an example that I have found in a current edition textbook, that I find particularly silly: "A cashier gives you too much change for a purchase. Do you correct the cashier?". **OF COURSE YOU DO!** This question lacks nuance or depth that arises in real-life ethical dilemmas.
 
-A better ethical question would be: "A cashier gives you too much change for a purchase. You are struggling for money after being laid off. Your son's shoes have holes in them and as the Wisconsin winter approaches you are worried that his feet might get frostbite if he doesn't get new shoes. You don't even care if they are new, you are willing to get him a used pair, but you don't even have enough money to pay the rent and money is tight. However, having worked in grocery before getting laid off, you understand that the cashier will be held personally responsible for the missing money and you do not want to get them in trouble. Do you correct the cashier if the amount in question is 1 dollar? 5 dollars? 100 dollars?"
+A better ethical question would be: "A cashier gives you too much change for a purchase. You are struggling for money after being laid off. Your son's shoes have holes in them and as the Wisconsin winter approaches, you are worried that his feet might get frostbite if he doesn't get new shoes. You don't even care if they are new, you are willing to get him a used pair, but you don't even have enough money to pay the rent and money is tight. However, having worked in grocery before getting laid off, you understand that the cashier will be held personally responsible for the missing money and you do not want to get them in trouble. Do you correct the cashier if the amount in question is 1 dollar? 5 dollars? 100 dollars?"
 
-Real life ethical dilemmas do not have clear cut solutions or consequences. Keep that in mind throughout the semester as we discuss these topics. For your first discussion this week, lets consider a name we all know, Nobel. It is most likely that you associate the name "Nobel" with prizes and science and smart stuff! That is just what Alfred Nobel was going for. He was almost known for something quite different...
+Real-life ethical dilemmas do not have clear-cut solutions or consequences. Keep that in mind throughout the semester as we discuss these topics. For your first discussion this week, let's consider a name we all know, Nobel. It is most likely that you associate the name "Nobel" with prizes and science and smart stuff! That is just what Alfred Nobel was going for. He was almost known for something quite different...
 
 > Ethics: Nobel's Legacy
-> Most people recognize the name Nobel and associate it with the Nobel Prize. The Nobel Prizes are arguably the most prestigious and famous scientific, literary, and social achievement awards in human history. What most people do not realize is that it was named after Alfred Nobel, a Swedish engineer credited with inventing dynamite. Nobel had an interesting opportunity to read his own obituary (it was published on accident) which was scathing and condemned him for profiting off of the sale of weapons. Realizing that his legacy was one of death and destruction, Alfred bequeathed his fortune to create the Nobel Prizes.
-> In the future you may have the opportunity to design and create something that will be used in a way you didn't intend. Let's pretend that you create a software algorithm that eliminates the jobs of 100,000 people. Your company is pleased and you get a raise! After all, you have increased profits by a huge margin. For this weeks online discussion post, write your own obituary. What do you think it will say? Will the world look kindly on the innovator that gave them the algorithm that increased productivity and profits? Will it lament the loss of jobs and curse you as a job killer? Read some NY Times obituaries (Links to an external site.) to get a feel for how they are written before you write your own.
+> Most people recognize the name Nobel and associate it with the Nobel Prize. The Nobel Prizes are arguably the most prestigious and famous scientific, literary, and social achievement awards in human history. What most people do not realize is that it was named after Alfred Nobel, a Swedish engineer credited with inventing dynamite. Nobel had an interesting opportunity to read his own obituary (it was published by accident) which was scathing and condemned him for profiting off of the sale of weapons. Realizing that his legacy was one of death and destruction, Alfred bequeathed his fortune to create the Nobel Prizes.
+> In the future you may have the opportunity to design and create something that will be used in a way you didn't intend. Let's pretend that you create a software algorithm that eliminates the jobs of 100,000 people. Your company is pleased and you get a raise! After all, you have increased profits by a huge margin. For this week's online discussion post, write your own obituary. What do you think it will say? Will the world look kindly at the innovator that gave them the algorithm that increased productivity and profits? Will it lament the loss of jobs and curse you as a job killer? Read some NY Times obituaries (Links to an external site.) to get a feel for how they are written before you write your own.
 
 
 ## Mindset: Engineering as a language, not as a puzzle
 
 Up until now, I have just told you everything is going to be hard, which it is, but DO NOT DESPAIR!
 
-In the next chapter of this book, we are going to introduce units, dimensions, and other important considerations. Later we will learn how to use both Microsoft Excel and MATLAB to perform data analysis and write programs. When you are first learning how to write programs and other engineering concepts, it is most effective to think of it as learning a new language, *not learning how to solve a puzzle*. I have seen students going online and picking and choosing bits of code, changing variables, and then when it "works", they save it, submit it as their completed homework. Students might also figure out a "process" for solving a particular type of problem, only to find out that (usually when they get to the test) that they don't really understand the underlying concepts. **This is not the correct way to think about homework or computer programming.**
+In the next chapter of this book, we are going to introduce units, dimensions, and other important considerations. Later we will learn how to use both Microsoft Excel and MATLAB to perform data analysis and write programs. When you are first learning how to write programs and other engineering concepts, it is most effective to think of it as learning a new language, *not learning how to solve a puzzle*. I have seen students going online and picking and choosing bits of code, changing variables, and then when it "works", they save it and submit it as their completed homework. Students might also figure out a "process" for solving a particular type of problem, only to find out that (usually when they get to the test) they don't really understand the underlying concepts. **This is not the correct way to think about homework or computer programming.**
 
 > When you are first learning how to write programs and other engineering concepts, it is most effective to think of it as learning a new language, not learning how to solve a puzzle.
 
-If this student was suddenly required to repeat the homework from scratch, it is unlikely that they would be adequately prepared from the homework.
+If these students were suddenly required to repeat the homework from scratch, it is unlikely that they would be adequately prepared from the homework.
 
 
 ### Remember our Workout Analogy
@@ -189,7 +189,7 @@ One of the dangers I would like to alert you to is that your professor has very 
 |:----:|
 |*Figure 1.4: Your professor has huge mental muscles.*|
 
-Your professor (or TA, or tutor) is so good, she makes it look easy. **This is super dangerous for you, the student!** Your professor makes it *look* easy but that doesn't actually mean that it is. The student  is going to have a hard time if he simply watches their professor deadlift a huge amount of weight, doesn't workout him/herself, and then shows up to the 60 minute workout test (the Professor fished this problem in 30min! How hard can it be?), confident that they know what they are doing. At this point, it is easy to see the mistake of the student.
+Your professor (or TA, or tutor) is so good, she makes it look easy. **This is super dangerous for you, the student!** Your professor makes it *look* easy but that doesn't actually mean that it is. The student is going to have a hard time if he simply watches their professor deadlift a huge amount of weight, doesn't workout him/herself, and then shows up to the 60-minute workout test (the Professor fished this problem in 30min! How hard can it be?), confident that they know what they are doing. At this point, it is easy to see the mistake of the student.
 
 Similarly, when your instructors / TA's / whoever shows you how to do things it is important to pay attention. You need to see someone perform the workout so that you know how to position your body, etc. But it *isn't going to help you build your mental muscles.* The learning comes from practicing, doing the same repetitious thing over and over.
 
@@ -209,7 +209,7 @@ Figure 1.0: Image courtesy of Elias Sch under [CCO Creative Commons](https://cre
 
 Figure 1.1: Image courtesy of Pixabay under [Pixabay License](https://pixabay.com/service/license/)
 
-Figure 1.2: Image courtesy of wikiimages under  [CCO Creative Commons](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+Figure 1.2: Image courtesy of Wikiimages under [CCO Creative Commons](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 
 Figure 1.3: Image courtesy of KeithJJ under [CCO Creative Commons](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
 

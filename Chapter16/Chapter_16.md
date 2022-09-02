@@ -77,7 +77,7 @@ So as part of your preparation, *relax*. The selfish and narcissistic tendencies
 
 > Discussion 16.1: How do you feel about presentation anxiety?
 
-> How do you personally feel about presenting in front of your class? Does it feel you with dread or do you look forward to it? Do you have any tips or tricks you would like to share with your classmates that you do to alleviate anxiety? This is an open discussion so you will be able to see each others responses and see who said what.
+> How do you personally feel about presenting in front of your class? Does it fill you with dread or do you look forward to it? Do you have any tips or tricks you would like to share with your classmates that you do to alleviate anxiety? This is an open discussion so you will be able to see each others responses and see who said what.
 
 ## What Your Presentation Should Entail
 
@@ -99,11 +99,11 @@ The title slide is just a place to include the names of all the people that work
 
 ### Introduction / Background Slide(s)
 
-The purpose of the introduction slide it to outline your current understanding of the subject. You need to include specific examples to previous work / research.
+The purpose of the introduction slide is to outline your current understanding of the subject. You need to include specific examples to previous work / research.
 
 - Clearly explain the importance for the current project and what the significance of the project will be.
 - Justify the merit of your project by presenting significant information.
-- End with a specific, clear, and explicit purpose for the project. Some of the projects that you complete during your undergraduate career will be chosen for you. It does not mean that the purpose of the project is "because the professor told me to do it". Spend some time thinking about the project and what learning outcomes your are expected to gain from it.
+- End with a specific, clear, and explicit purpose for the project. Some of the projects that you complete during your undergraduate career will be chosen for you. It does not mean that the purpose of the project is "because the professor told me to do it". Spend some time thinking about the project and what learning outcomes you are expected to gain from it.
 
 |![Fig16.4](Media/Intro_Ex.png)|
 |:----:|

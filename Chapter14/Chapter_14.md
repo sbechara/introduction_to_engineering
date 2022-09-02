@@ -48,7 +48,7 @@ If you are unfamiliar with [maclaurin expansion (it is a special form of a taylo
 
 For our purposes we will just understand that the following is true:
 
-\\[ sin(x)=\sum_{k=0}^{\infty}\frac{-1^{k}x^{2k+1}}{(2k+1)!}=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}+\frac{x^{7}}{7!}+... \\]
+\\[ sin(x)=\sum_{k=0}^{\infty}\frac{-1^{k}x^{2k+1}}{(2k+1)!}=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}-\frac{x^{7}}{7!}+... \\]
 
 Recall, this is saying that we can represent \\( sin(x) \\) as an infinite polynomial and it will equal \\( sin(x) \\) exactly as long as we have an \\( \infty \\) number of terms.
 
@@ -221,7 +221,7 @@ Returning to our Maclaurin series example, we are *now* ready for the **code** p
 
 **Create a MATLAB script that can return the value of the Maclaurin series expansion of \\( sin(x) \\) for angle \\( x \\) in radians, for an arbitrary \\( n \\) number of terms.**
 
-- Recall the Maclaurin series expansion of \\( sin(x) \\) is: \\[ sin(x)=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}+\frac{x^{7}}{7!}+... \\]
+- Recall the Maclaurin series expansion of \\( sin(x) \\) is: \\[ sin(x)=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}-\frac{x^{7}}{7!}+... \\]
 - Remember that although only 4 terms are shown in the bullet point above, that this is an \\( \infty \\) sum
 - When we say an arbitrary \\( n \\) number of terms, your script should allow the user to change a variable `n` to change how many terms are used in the estimation.
 - For example, if the user specifies `n = 3`, and wants to estimate \\( sin(1.15) \\) by specifying `x = 1.15`, the program should calculate:
