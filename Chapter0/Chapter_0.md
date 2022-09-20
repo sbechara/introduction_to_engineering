@@ -5,7 +5,7 @@ This isn't your traditional, static, boring engineering textbook. Unless you hav
 
 |![fig0.1](media/figure0.1.jpg)
 |:--:|
-|*Figure 1: Begone boring textbooks of old!*|
+|*Figure 0.1: Begone boring textbooks of old!*|
 
 
 To make sure we are all on the same page, I have included descriptions of the interactive components of this textbook, how they will be graded, and who will have access to what information. I would also like to introduce you to the analogy that we will be using in this book.
@@ -20,7 +20,7 @@ Let's say that you are physically weak and are unable to lift heavy objects. You
 
 |![fig0.2](media/figure0.2.jpg)
 |:--:|
-|*Figure 2: You will be doing this, except with your brain!*|
+|*Figure 0.2: You will be doing this, except with your brain!*|
 
 
 
@@ -72,7 +72,7 @@ In this book, you will be learning how to use two software packages, Excel and M
 
 |![fig0.3](media/figure0.3.jpg)
 |:--:|
-|*Figure 3: Roll up those sleeves and get your hands dirty!*|
+|*Figure 0.3: Roll up those sleeves and get your hands dirty!*|
 
 
 
@@ -94,7 +94,7 @@ Personal reflection is your opportunity to vent and let the professor know about
 
 > **Personal Reflection - Chapter 0**
 
->This is a completely anonymous submission. The professor will be able to see the responses but the responses will not be attributed to an author. Your participation is required.
+>>This is a completely anonymous submission. The professor will be able to see the responses but the responses will not be attributed to an author. Your participation is required.
 
 >We haven't really learned anything yet but now is a good opportunity to practice reflecting. Look back on your previous life (most of you are from high school but some of you undoubtedly will have been working, in the military, etc). What parts of your previous life will help you with being an engineering student?
 
@@ -110,7 +110,7 @@ In any case, please take a few minutes at the end of each chapter to think about
 
 > **Request for Feedback - Chapter 0**
 
-> This is a completely anonymous submission. The professor will be able to see the responses but the responses will not be attributed to an author. Your participation is required.
+>>This is a completely anonymous submission. The professor will be able to see the responses but the responses will not be attributed to an author. Your participation is required.
 
 >This chapter is pretty short and we haven't really learned any new material yet, but it does give you a feel for what the rest of the book is going to be like. Do you appreciate the tone of the author? Do you think this is going to be a fun course? Are you excited to read the book based on this chapter? Any feedback is appreciated.
 
