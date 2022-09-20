@@ -2,7 +2,7 @@
 
 By: Samuel Bechara, PhD
 
-With contributions by: insert LA helpers here
+With contributions by: Seth Wilson
 
 This is the repository that will store all of the chapters to the Introduction to Engineering book. Each chapter will be stored in it's own folder named "Chapter X". Where X is the number...you get the idea. Inside each of the chapter folders will be multiple sub-folders as follows:
 
